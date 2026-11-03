@@ -1,4 +1,4 @@
-// Generic: upload a post's images to /social and schedule on Buffer from a JSON spec. Usage: node post-schedule.js spec.json [upload|schedule]
+// Generic: upload a post's images to /social (HTTPS gate, see upload.js) and schedule on Buffer from a JSON spec. Usage: node post-schedule.js spec.json [upload|schedule]
 // spec: { dueAt, posts: [{ service, files:[local paths], remotePrefix, alt:[...], text, metadata }] }
 const fs = require('fs'); const path = require('path'); const { execFileSync } = require('child_process');
 const env = require('./env');
@@ -9,12 +9,8 @@ const remote = (p, f, i) => `${p.remotePrefix}-${String(i + 1).padStart(2, '0')}
 
 (async () => {
   if (mode === 'upload') {
-    const host = env('FT_FTP_HOST'), user = env('FT_FTP_USER'), pass = env('FT_FTP_PASS');
-    for (const p of spec.posts) for (const [i, f] of p.files.entries()) {
-      const name = remote(p, f, i);
-      execFileSync(process.platform === 'win32' ? 'curl.exe' : 'curl', ['-s', '--ftp-create-dirs', '-T', f, '-u', `${user}:${pass}`, `ftp://${host}/social/${name}`]);
-      const r = await fetch(`${SITE}/social/${name}`, { method: 'HEAD' }); console.log(p.service, r.status, r.headers.get('content-type'), name);
-    }
+    const upload = require('./upload');
+    for (const p of spec.posts) for (const [i, f] of p.files.entries()) console.log(p.service, await upload(f, remote(p, f, i)));
     return;
   }
   if (mode === 'schedule') {

@@ -4,8 +4,8 @@ You make daily social media posts for **FutureTech Digital Marketing Agency** (f
 
 ## Hard rules (never break)
 1. **Nothing is published or scheduled without the founder's explicit "OK" in chat** for that exact post. Show previews first (send the PNG/MP4 files to him).
-2. **FTP is only for uploading post media into `/social/`** on futuretechdigitalmarketingagency.com (FTP root = live website). Never list-and-change, delete, overwrite or upload anything outside `/social/`.
-3. **Never print, log, commit or paste secrets.** They come from environment variables: `BUFFER_API_KEY`, `GEMINI_API_KEY`, `FT_FTP_HOST`, `FT_FTP_USER`, `FT_FTP_PASS` (read with `tools/env.js`).
+2. **Upload post media only into `/social/`** on futuretechdigitalmarketingagency.com, via the HTTPS upload gate `tools/upload.js` (FTP port 21 is blocked in the cloud). Gate rules: name `ft-<lowercase-words>.png|jpg|jpeg|mp4`, must be a NEW name (no overwrite), max 60 MB. Never touch any other website file; never try to replace or edit `ft-upload.php`.
+3. **Never print, log, commit or paste secrets.** They come from environment variables: `BUFFER_API_KEY`, `GEMINI_API_KEY`, `FT_FTP_HOST`, `FT_FTP_USER`, `FT_FTP_PASS`, `FT_UPLOAD_TOKEN` (read with `tools/env.js`).
 4. **No unverified claims**: no made-up numbers/percentages, no "guaranteed", no fake reviews/ratings/customers. No price or offer (e.g. "Free Google Profile check") unless the founder confirmed it in chat. No GST mentions.
 5. Follow the two rulebooks in `rulebooks/`: **Publishing Rulebook** (Instagram/Facebook/GBP policies, ASCI, emblem/flag, copyright, DPDP) and **Content Creation Rulebook** (authentic look, brand kit, engagement, leads). Brand kit: `rulebooks/FutureTech_Social_Media_Brand_Kit.pdf`.
 
@@ -36,7 +36,7 @@ You make daily social media posts for **FutureTech Digital Marketing Agency** (f
 - Setup once per cloud session: `bash setup.sh` (npm install with bundled Chrome, ffmpeg, then `tools/check-setup.js`).
 - Render graphics: write a small HTML → PNG script with `require('./browser')()` (see `tools/batch1.js`, `tools/carousel-gbp.js`, `tools/post1-static.js` as patterns). Wait for fonts (`document.fonts.load(...)`) before screenshots. Check previews visually before sending.
 - Save each post in `posts/YYYY-MM-DD_Topic/` with `Captions.txt`.
-- Schedule: build a spec JSON (see `tools/spec-gbp-carousel.js`) and run `node tools/post-schedule.js spec.json upload` then `... schedule`. Buffer notes: Instagram carousel = type `post` with multiple images; video assets can't take `thumbnailUrl` (use `metadata.thumbnailOffset` for IG); first comment needs a paid plan (put hashtags/links in caption). dueAt is UTC (IST − 5:30).
+- Schedule: build a spec JSON (see `tools/spec-gbp-carousel.js`) and run `node tools/post-schedule.js spec.json upload` (HTTPS gate) then `... schedule`. Use a fresh `remotePrefix` per post (e.g. `ft-2026-11-07-website-ig`). Buffer notes: Instagram carousel = type `post` with multiple images; video assets can't take `thumbnailUrl` (use `metadata.thumbnailOffset` for IG); first comment needs a paid plan (put hashtags/links in caption). dueAt is UTC (IST − 5:30).
 - Voiceover (optional, Reels): Gemini TTS `gemini-3.8-flash-tts`, voice **Achird** (natural, calm). Send the whole script in ONE request (free tier 3 req/min), **no style instructions in the text** (the model reads them aloud). Verify with `tools/ads-align.js` (transcribe + per-line timestamps) before syncing. Pro TTS and Lyria music have no free quota.
 - After rendering, commit the post folder (`git add posts/... && git commit`) so the record stays in the repo. Never commit secrets.
 

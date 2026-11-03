@@ -2,7 +2,7 @@
 const { execFileSync } = require('child_process');
 const env = require('./env');
 (async () => {
-  for (const n of ['BUFFER_API_KEY', 'GEMINI_API_KEY', 'FT_FTP_HOST', 'FT_FTP_USER', 'FT_FTP_PASS']) {
+  for (const n of ['BUFFER_API_KEY', 'GEMINI_API_KEY', 'FT_FTP_HOST', 'FT_FTP_USER', 'FT_FTP_PASS', 'FT_UPLOAD_TOKEN']) {
     let ok = false; try { ok = !!env(n); } catch (e) { }
     console.log(`${ok ? 'OK ' : 'MISSING'}  ${n}`);
   }
