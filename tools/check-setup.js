@@ -2,10 +2,11 @@
 const { execFileSync } = require('child_process');
 const env = require('./env');
 (async () => {
-  for (const n of ['BUFFER_API_KEY', 'GEMINI_API_KEY', 'FT_FTP_HOST', 'FT_FTP_USER', 'FT_FTP_PASS', 'FT_UPLOAD_TOKEN']) {
+  for (const n of ['BUFFER_API_KEY', 'GEMINI_API_KEY', 'FT_FTP_HOST', 'FT_FTP_USER', 'FT_FTP_PASS']) {
     let ok = false; try { ok = !!env(n); } catch (e) { }
     console.log(`${ok ? 'OK ' : 'MISSING'}  ${n}`);
   }
+  try { require('./upload-token')(); console.log('OK      upload token (derived)'); } catch (e) { console.log('MISSING upload token: ' + e.message); }
   for (const bin of ['ffmpeg', 'ffprobe', process.platform === 'win32' ? 'curl.exe' : 'curl']) {
     try { execFileSync(bin, [bin.startsWith('curl') ? '--version' : '-version'], { stdio: 'ignore' }); console.log('OK      ' + bin); } catch (e) { console.log('MISSING ' + bin); }
   }

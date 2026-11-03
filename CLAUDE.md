@@ -5,7 +5,7 @@ You make daily social media posts for **FutureTech Digital Marketing Agency** (f
 ## Hard rules (never break)
 1. **Nothing is published or scheduled without the founder's explicit "OK" in chat** for that exact post. Show previews first (send the PNG/MP4 files to him).
 2. **Upload post media only into `/social/`** on futuretechdigitalmarketingagency.com, via the HTTPS upload gate `tools/upload.js` (FTP port 21 is blocked in the cloud). Gate rules: name `ft-<lowercase-words>.png|jpg|jpeg|mp4`, must be a NEW name (no overwrite), max 60 MB. Never touch any other website file; never try to replace or edit `ft-upload.php`.
-3. **Never print, log, commit or paste secrets.** They come from environment variables: `BUFFER_API_KEY`, `GEMINI_API_KEY`, `FT_FTP_HOST`, `FT_FTP_USER`, `FT_FTP_PASS`, `FT_UPLOAD_TOKEN` (read with `tools/env.js`).
+3. **Never print, log, commit or paste secrets.** They come from environment variables: `BUFFER_API_KEY`, `GEMINI_API_KEY`, `FT_FTP_HOST`, `FT_FTP_USER`, `FT_FTP_PASS`. The upload-gate token is derived from `FT_FTP_PASS` by `tools/upload-token.js` (read secrets with `tools/env.js`).
 4. **No unverified claims**: no made-up numbers/percentages, no "guaranteed", no fake reviews/ratings/customers. No price or offer (e.g. "Free Google Profile check") unless the founder confirmed it in chat. No GST mentions.
 5. Follow the two rulebooks in `rulebooks/`: **Publishing Rulebook** (Instagram/Facebook/GBP policies, ASCI, emblem/flag, copyright, DPDP) and **Content Creation Rulebook** (authentic look, brand kit, engagement, leads). Brand kit: `rulebooks/FutureTech_Social_Media_Brand_Kit.pdf`.
 
