@@ -1,0 +1,7 @@
+node_modules/
+.env
+*.pcm
+tools/ads/
+tools/vo1/
+tools/*.json.bak
+posts/**/prev/
