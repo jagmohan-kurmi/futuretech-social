@@ -1,0 +1,59 @@
+{
+ "dueAt": "2026-11-07T08:30:00.000Z",
+ "posts": [
+  {
+   "service": "instagram",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-07_Website_WhatsApp_Order/Instagram_1080x1350.png"
+   ],
+   "remotePrefix": "ft-2026-11-07-website-ig",
+   "alt": [
+    "FutureTech service graphic in Hindi: \"Dukaan ki website — WhatsApp order ke saath\". Flat illustration of a phone showing a simple shop website with product cards and green WhatsApp order buttons. Checklist: mobile par jaldi khule, Google par dikhe, WhatsApp order button."
+   ],
+   "text": "Customer aapki dukaan online dhoondhe, to use kya milta hai? 📱\n\nEk simple website jahan se wo seedha WhatsApp par order kar sake:\n1️⃣ Mobile par jaldi khule — har phone par saaf dikhe\n2️⃣ Google par dikhe — basic SEO aur Google Business Profile ka link\n3️⃣ Har product ke saath WhatsApp order button — customer seedha aapse baat kare\n\nApni dukaan ki website ke baare mein jaanna hai? WhatsApp karein 📲 79742 17411\n\nPost save karein, aur jo dost dukaan chalata hai usko bhejiye.\n\n#SmallBusinessIndia #DigitalMarketingIndia #LocalSEO #WebsiteForBusiness #WhatsAppBusiness",
+   "metadata": {
+    "instagram": {
+     "type": "post",
+     "shouldShareToFeed": true,
+     "isAiGenerated": false
+    }
+   }
+  },
+  {
+   "service": "facebook",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-07_Website_WhatsApp_Order/Facebook_1200x1200.png"
+   ],
+   "remotePrefix": "ft-2026-11-07-website-fb",
+   "alt": [
+    "FutureTech service graphic in Hindi: \"Dukaan ki website — WhatsApp order ke saath\". Flat illustration of a phone showing a simple shop website with product cards and green WhatsApp order buttons. Checklist: mobile par jaldi khule, Google par dikhe, WhatsApp order button."
+   ],
+   "text": "Dukaan ki apni website — WhatsApp order ke saath 📱\n\n✅ Mobile par jaldi khule\n✅ Google par dikhe\n✅ Har product par WhatsApp order button\n\nSagar (MP) se, poore India ke dukaandaron ke liye. Baat karein: https://wa.me/917974217411?text=Namaste%20(FB-P03)\n\n#SmallBusinessIndia #WebsiteForBusiness",
+   "metadata": {
+    "facebook": {
+     "type": "post"
+    }
+   }
+  },
+  {
+   "service": "googlebusiness",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-07_Website_WhatsApp_Order/GBP_1200x900.png"
+   ],
+   "remotePrefix": "ft-2026-11-07-website-gbp",
+   "alt": [
+    "FutureTech service graphic in Hindi: \"Dukaan ki website — WhatsApp order ke saath\". Flat illustration of a phone showing a simple shop website with product cards and green WhatsApp order buttons. Checklist: mobile par jaldi khule, Google par dikhe, WhatsApp order button."
+   ],
+   "text": "Dukaan ki apni website, WhatsApp order ke saath. Website mobile par jaldi khule, Google par dikhe, aur har product ke saath WhatsApp order button ho, taaki customer seedha aapse baat kar sake.\n\nFutureTech chhote vyapariyon ke liye aisi website banata hai.",
+   "metadata": {
+    "google": {
+     "type": "whats_new",
+     "detailsWhatsNew": {
+      "button": "learn_more",
+      "link": "https://futuretechdigitalmarketingagency.com/?utm_source=gbp&utm_campaign=p03"
+     }
+    }
+   }
+  }
+ ]
+}
