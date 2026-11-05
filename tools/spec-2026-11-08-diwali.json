@@ -1,0 +1,55 @@
+{
+ "dueAt": "2026-11-08T02:30:00.000Z",
+ "posts": [
+  {
+   "service": "instagram",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-08_Diwali_Greeting/Instagram_1080x1350.png"
+   ],
+   "remotePrefix": "ft-2026-11-08-diwali-ig",
+   "alt": [
+    "Shubh Deepawali greeting by FutureTech: flat illustration of a rangoli above three lit diyas, text \"Aapke ghar aur vyapar mein roshni, khushiyan aur tarakki bani rahe — FutureTech parivaar\"."
+   ],
+   "text": "Shubh Deepawali 🪔\n\nAapke ghar aur vyapar mein roshni, khushiyan aur tarakki bani rahe.\n— FutureTech parivaar\n\n#Diwali2026 #ShubhDeepawali #HappyDiwali",
+   "metadata": {
+    "instagram": {
+     "type": "post",
+     "shouldShareToFeed": true,
+     "isAiGenerated": false
+    }
+   }
+  },
+  {
+   "service": "facebook",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-08_Diwali_Greeting/Facebook_1200x1200.png"
+   ],
+   "remotePrefix": "ft-2026-11-08-diwali-fb",
+   "alt": [
+    "Shubh Deepawali greeting by FutureTech: flat illustration of a rangoli above three lit diyas, text \"Aapke ghar aur vyapar mein roshni, khushiyan aur tarakki bani rahe — FutureTech parivaar\"."
+   ],
+   "text": "Shubh Deepawali 🪔\nAapke ghar aur vyapar mein roshni, khushiyan aur tarakki bani rahe.\n— FutureTech parivaar",
+   "metadata": {
+    "facebook": {
+     "type": "post"
+    }
+   }
+  },
+  {
+   "service": "googlebusiness",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-08_Diwali_Greeting/GBP_1200x900.png"
+   ],
+   "remotePrefix": "ft-2026-11-08-diwali-gbp",
+   "alt": [
+    "Shubh Deepawali greeting by FutureTech: flat illustration of a rangoli above three lit diyas, text \"Aapke ghar aur vyapar mein roshni, khushiyan aur tarakki bani rahe — FutureTech parivaar\"."
+   ],
+   "text": "Shubh Deepawali! Aapke ghar aur vyapar mein roshni, khushiyan aur tarakki bani rahe. — FutureTech Digital Marketing Agency parivaar",
+   "metadata": {
+    "google": {
+     "type": "whats_new"
+    }
+   }
+  }
+ ]
+}
