@@ -1,0 +1,29 @@
+REEL — Diwali wishes (greeting only, no offer) — 8 Nov 2026, 6:30 PM IST
+File: Reel_Diwali_Wishes_1080x1920.mp4 (15 sec, 1080x1920) | Cover: Reel_Cover_1080x1920.png (cover frame at 12 s)
+Voice: none. Audio: original synthesized bell + soft drone (made with ffmpeg, no third-party music) -> no AI label needed.
+Safe zones: all text between 300px and 1540px (top 250 / bottom 340 clear).
+GBP: video not used; GBP gets the static greeting posts/2026-11-08_Diwali_Greeting/GBP_1200x900.png.
+
+Alt text: Animated Shubh Deepawali greeting by FutureTech: a rangoli forms, three diyas light up one by one, then the text "Aapke ghar aur vyapar mein roshni, khushiyan aur tarakki bani rahe — FutureTech parivaar" and the FutureTech logo.
+
+==================================================
+INSTAGRAM (Reel)
+--------------------------------------------------
+Shubh Deepawali 🪔
+
+Aapke ghar aur vyapar mein roshni, khushiyan aur tarakki bani rahe.
+— FutureTech parivaar
+
+#Diwali2026 #ShubhDeepawali #HappyDiwali
+
+==================================================
+FACEBOOK (Reel)
+--------------------------------------------------
+Shubh Deepawali 🪔
+Aapke ghar aur vyapar mein roshni, khushiyan aur tarakki bani rahe.
+— FutureTech parivaar
+
+==================================================
+GOOGLE BUSINESS PROFILE (static GBP_1200x900.png from 2026-11-08_Diwali_Greeting) — Update post, no button
+--------------------------------------------------
+Shubh Deepawali! Aapke ghar aur vyapar mein roshni, khushiyan aur tarakki bani rahe. — FutureTech Digital Marketing Agency parivaar
