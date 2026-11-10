@@ -14,3 +14,5 @@ REEL (9:16, approx 30-37 sec) — video BUILT (text-timed, Hindi subtitles); VOI
 
 CAPTION (IG/FB): दुकान का हिसाब Notebook, Excel और WhatsApp में बिखरा है? एक जगह कैसे हो सकता है, देखिए 👇 WhatsApp करें 📲 79742 17411 #SmallBusinessIndia #WebApp #BillingSoftware #Kirana #MedicalStore
 NOTE: AI voice => Instagram isAiGenerated true + Facebook AI label manually. Founder voice/face = no label needed.
+
+VOICE: ElevenLabs 'Neeraj - Warm & Friendly Hindi' (voice_neeraj.mp3), AI-generated => Instagram isAiGenerated = true; turn on AI label on Facebook manually. Video re-timed to voice (scene cuts at natural pauses).
