@@ -155,26 +155,32 @@ function slide(f, s, i, n, opt = {}) {
   return `<div class="page">${header(chip)}<div class="bd">${aud}<h1>${s.h}</h1>${s.sub ? `<div class="sub">${s.sub}</div>` : ''}${art}${fx}</div>${f.foot ? foot : ''}</div>`;
 }
 
-// CTA slide (professional): recap + big WhatsApp button + QR + identity + save/share
+// CTA slide: conversation-style closer (chat preview + big WhatsApp button + number + 2 steps)
 function ctaSlide(f, s, i, n, code) {
   const sm = f.H <= 1100;
-  const rows = s.recap.map(r => `<div class="cr"><div class="cri">${ic(r.icon)}</div><div><div class="crt">${r.t}</div>${r.s ? `<div class="crs">${r.s}</div>` : ''}</div></div>`).join('');
-  const q = qr(code);
+  const pills = (s.recap || []).map(r => `<span>${ic('check', '#16A34A', 3)}${r.t}</span>`).join('');
   return `<div class="page cta ${sm ? 'sm' : ''}" style="--cs:1">${header(s.chip || '')}<div class="bd"><h1>${s.h}</h1>
-<div class="cl">${rows}</div>
-<div class="cb"><div class="btn"><span class="bi">${ic('wa', '#fff', 2)}</span>WhatsApp पर बात करें</div>
-<div class="nrow"><div class="num">79742 17411</div>${q ? `<div class="qr">${q}<small>Scan karein</small></div>` : ''}</div>
-<div class="idn">${s.line || ''}</div><div class="idn2">Sagar (MP) से, पूरे India के लिए</div></div>
+<div class="csub">${s.csub || 'सीधे WhatsApp पर पूछिए — हम जवाब देंगे।'}</div>
+<div class="cchat"><div class="cch"><i></i><div><b>FutureTech</b><small>WhatsApp पर online</small></div></div><div class="cbub out">${s.ask || 'Namaste, mujhe aapke baare mein jaanna hai'}</div><div class="cbub in">${s.reply || 'Namaste! Bataiye, main kya madad karun?'}</div></div>
+<div class="cbtn"><span class="bi">${ic('wa', '#fff', 2)}</span>WhatsApp पर पूछिए<span class="car">→</span></div>
+<div class="cnum">79742 17411</div>
+<div class="csteps"><span><b>1</b> Number save करें</span><span><b>2</b> “Hi” भेजें</span></div>
+<div class="cpills">${pills}</div>
 <div class="sv"><div><span>${ic('save')}</span>Save करें</div><div><span>${ic('send')}</span>${s.share || 'दोस्त को भेजें'}</div></div></div>
 <div class="ft">${dots(i, n)}<div class="web">futuretechdigitalmarketingagency.com</div></div></div>`;
 }
 const ctaCss = f => `
-.cta.sm h1{font-size:64px!important}.cta.sm .crs{display:none}.cta .bd{justify-content:space-evenly;padding-bottom:12px}.cta h1{margin-top:calc(var(--cs)*18px)}
-.cl{background:#fff;border:3px solid #E1E7EF;border-radius:26px;padding:calc(var(--cs)*4px) 28px}.cr{display:flex;gap:calc(var(--cs)*22px);align-items:center;padding:calc(var(--cs)*13px) 0}.cr+.cr{border-top:2px dashed #E1E7EF}.cri{flex:0 0 calc(var(--cs)*66px);height:calc(var(--cs)*66px);border-radius:18px;background:#EEF5FC;padding:calc(var(--cs)*15px)}.crt{font-family:Mukta;font-weight:800;font-size:calc(var(--cs)*40px);line-height:1.1}.crs{font-family:Mukta;font-weight:600;font-size:calc(var(--cs)*28px);color:#5F6B7A}
-.cb{background:${NV};border-radius:36px;padding:calc(var(--cs)*26px) 30px;text-align:center;color:#fff;margin-top:calc(var(--cs)*18px)}.btn{display:flex;align-items:center;justify-content:center;gap:16px;background:${GR};border-radius:60px;padding:calc(var(--cs)*16px) 20px;font-family:Mukta;font-weight:800;font-size:calc(var(--cs)*46px)}.bi{width:calc(var(--cs)*54px);height:calc(var(--cs)*54px);display:block}
-.nrow{display:flex;align-items:center;justify-content:center;gap:34px;margin-top:calc(var(--cs)*14px)}.num{font-size:calc(var(--cs)*84px);font-weight:800;letter-spacing:1px}.qr{width:calc(var(--cs)*150px);background:#fff;border-radius:14px;padding:6px;color:${NV}}.qr svg{display:block;width:100%;height:auto}.qr small{display:block;text-align:center;font-size:22px;font-weight:700;margin-top:2px}
-.idn{font-family:Mukta;font-weight:700;font-size:calc(var(--cs)*31px);color:${GD};margin-top:calc(var(--cs)*6px)}.idn2{font-family:Mukta;font-weight:600;font-size:calc(var(--cs)*28px);color:${SKY}}
-.sv{display:flex;gap:18px;margin:calc(var(--cs)*18px) 0 0}.sv div{flex:1;background:#fff;border:3px solid #E1E7EF;border-radius:24px;padding:calc(var(--cs)*12px);display:flex;align-items:center;justify-content:center;gap:12px;font-family:Mukta;font-weight:700;font-size:calc(var(--cs)*30px)}.sv span{width:calc(var(--cs)*34px);height:calc(var(--cs)*34px);display:block}`;
+.cta .bd>*{flex:0 0 auto}.cta .bd{justify-content:space-evenly;padding-bottom:10px}.cta h1{margin-top:calc(var(--cs)*14px)}
+.csub{font-family:Mukta;font-weight:600;font-size:calc(var(--cs)*36px);line-height:1.25;color:#5F6B7A;margin-top:6px}
+.cchat{background:#EFE7DC;border:3px solid ${NV};border-radius:30px;overflow:hidden;margin-top:calc(var(--cs)*16px)}
+.cch{display:flex;gap:16px;align-items:center;background:#0B6E4F;color:#fff;padding:calc(var(--cs)*14px) 24px}.cch i{width:calc(var(--cs)*54px);height:calc(var(--cs)*54px);border-radius:50%;background:${GD};display:block;flex:0 0 auto}.cch b{display:block;font-size:calc(var(--cs)*30px)}.cch small{font-size:calc(var(--cs)*22px);opacity:.9}
+.cbub{margin:calc(var(--cs)*14px) 22px;padding:calc(var(--cs)*14px) 22px;border-radius:20px;font-size:calc(var(--cs)*31px);line-height:1.3;max-width:84%;font-weight:500}.cbub.out{background:#D9FDD3;margin-left:auto;border-top-right-radius:6px}.cbub.in{background:#fff;border-top-left-radius:6px}
+.cbtn{display:flex;align-items:center;justify-content:center;gap:16px;background:${GR};color:#fff;border-radius:80px;padding:calc(var(--cs)*24px) 20px;margin-top:calc(var(--cs)*18px);font-family:Mukta;font-weight:800;font-size:calc(var(--cs)*56px);box-shadow:0 calc(var(--cs)*9px) 0 #15803D}.cbtn .bi{width:calc(var(--cs)*60px);height:calc(var(--cs)*60px);display:block}.cbtn .car{font-size:calc(var(--cs)*60px);margin-left:6px}
+.cnum{text-align:center;font-size:calc(var(--cs)*104px);font-weight:800;letter-spacing:2px;color:${NV};margin-top:calc(var(--cs)*16px);line-height:1.1}
+.csteps{display:flex;gap:14px;justify-content:center;margin-top:calc(var(--cs)*8px)}.csteps span{display:flex;align-items:center;gap:12px;background:#fff;border:3px solid ${NV};border-radius:50px;padding:calc(var(--cs)*10px) 24px;font-family:Mukta;font-weight:800;font-size:calc(var(--cs)*32px)}.csteps b{display:inline-flex;width:calc(var(--cs)*40px);height:calc(var(--cs)*40px);border-radius:50%;background:${GD};align-items:center;justify-content:center;font-size:calc(var(--cs)*26px)}
+.cpills{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:calc(var(--cs)*14px)}.cpills span{display:flex;align-items:center;gap:8px;background:#EEF5FC;border-radius:40px;padding:calc(var(--cs)*8px) 18px;font-family:Mukta;font-weight:700;font-size:calc(var(--cs)*27px)}.cpills .ico{width:calc(var(--cs)*28px);height:calc(var(--cs)*28px)}
+.sv{display:flex;gap:18px;margin:calc(var(--cs)*14px) 0 0}.sv div{flex:1;background:#fff;border:3px solid #E1E7EF;border-radius:24px;padding:calc(var(--cs)*10px);display:flex;align-items:center;justify-content:center;gap:12px;font-family:Mukta;font-weight:700;font-size:calc(var(--cs)*28px)}.sv span{width:calc(var(--cs)*30px);height:calc(var(--cs)*30px);display:block}
+.cta.sm h1{font-size:62px!important}.cta.sm .csub,.cta.sm .cpills{display:none}`;
 
 // ---------- renderer ----------
 async function renderPages(br, jobs) {
