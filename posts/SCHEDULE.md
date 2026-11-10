@@ -11,3 +11,4 @@
 Next in the 7-day plan: 7 Nov service post (website + WhatsApp order), 8 Nov Diwali greeting (8 AM), 9 Nov carousel "Diwali ke baad customer dobara kaise aaye?", 10 Nov Govardhan Puja greeting + Story poll.
 
 | 10 Nov 2026, 6:00 PM | Achchi business website ki 5 pehchaan (7-slide carousel; GBP single image) | IG, FB, GBP | Scheduled |
+| 11 Nov 2026, 2:00 PM | Ads chal rahi hain, par budget waste ho raha hai? (5-slide carousel; GBP single image) | IG, FB, GBP | Scheduled |

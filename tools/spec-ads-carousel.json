@@ -1,0 +1,75 @@
+{
+ "dueAt": "2026-11-11T08:30:00.000Z",
+ "posts": [
+  {
+   "service": "instagram",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-19_Ads_Budget_Carousel/IG_01_1080x1350.png",
+    "/home/user/futuretech-social/posts/2026-11-19_Ads_Budget_Carousel/IG_02_1080x1350.png",
+    "/home/user/futuretech-social/posts/2026-11-19_Ads_Budget_Carousel/IG_03_1080x1350.png",
+    "/home/user/futuretech-social/posts/2026-11-19_Ads_Budget_Carousel/IG_04_1080x1350.png",
+    "/home/user/futuretech-social/posts/2026-11-19_Ads_Budget_Carousel/IG_05_1080x1350.png"
+   ],
+   "remotePrefix": "ft-2026-11-11-ads-ig",
+   "alt": [
+    "FutureTech Hindi carousel slide 1 of 5. Funnel: ad budget leaks through galat audience, kamzor page, follow-up nahi aur tracking nahi.",
+    "FutureTech Hindi carousel slide 2 of 5. Kaaran 1: galat audience ko ad dikh rahi hai.",
+    "FutureTech Hindi carousel slide 3 of 5. Kaaran 2: kamzor page, uljha page versus saaf page with WhatsApp button.",
+    "FutureTech Hindi carousel slide 4 of 5. Kaaran 3: follow-up aur tracking nahi.",
+    "FutureTech Hindi carousel slide 5 of 5. Ads se pehle ye 3 cheezein theek karein. WhatsApp 79742 17411."
+   ],
+   "text": "Ads chal rahi hain, par budget waste ho raha hai? 💸\n\nZyada tar budget in 3 jagah leak hota hai:\n1️⃣ Galat audience — jo aapka customer nahi, use ad dikh rahi hai\n2️⃣ Kamzor page — click ke baad saaf baat aur WhatsApp button nahi\n3️⃣ Follow-up aur tracking nahi — jawab late, aur pata nahi kaun si ad se enquiry aayi\n\nAds badhane se pehle ye 3 cheezein theek karein.\n\nApni ads ka check-up chahiye? WhatsApp karein 📲 79742 17411\n\nSave karein, aur jo dost ads chalata hai usko bhejiye.\n\n#DigitalMarketingIndia #SmallBusinessIndia #GoogleAds #MetaAds #LeadGeneration",
+   "metadata": {
+    "instagram": {
+     "type": "post",
+     "shouldShareToFeed": true,
+     "isAiGenerated": false
+    }
+   }
+  },
+  {
+   "service": "facebook",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-19_Ads_Budget_Carousel/FB_01_1080x1080.png",
+    "/home/user/futuretech-social/posts/2026-11-19_Ads_Budget_Carousel/FB_02_1080x1080.png",
+    "/home/user/futuretech-social/posts/2026-11-19_Ads_Budget_Carousel/FB_03_1080x1080.png",
+    "/home/user/futuretech-social/posts/2026-11-19_Ads_Budget_Carousel/FB_04_1080x1080.png",
+    "/home/user/futuretech-social/posts/2026-11-19_Ads_Budget_Carousel/FB_05_1080x1080.png"
+   ],
+   "remotePrefix": "ft-2026-11-11-ads-fb",
+   "alt": [
+    "FutureTech Hindi carousel slide 1 of 5. Funnel: ad budget leaks through galat audience, kamzor page, follow-up nahi aur tracking nahi.",
+    "FutureTech Hindi carousel slide 2 of 5. Kaaran 1: galat audience ko ad dikh rahi hai.",
+    "FutureTech Hindi carousel slide 3 of 5. Kaaran 2: kamzor page, uljha page versus saaf page with WhatsApp button.",
+    "FutureTech Hindi carousel slide 4 of 5. Kaaran 3: follow-up aur tracking nahi.",
+    "FutureTech Hindi carousel slide 5 of 5. Ads se pehle ye 3 cheezein theek karein. WhatsApp 79742 17411."
+   ],
+   "text": "Ads chal rahi hain, par budget waste ho raha hai? 💸 (swipe karein)\n\nBudget ye 3 jagah leak hota hai:\n❌ Galat audience\n❌ Kamzor page (click ke baad WhatsApp button nahi)\n❌ Follow-up aur tracking nahi\n\nAds badhane se pehle ye teen cheezein theek karein.\n\nMadad chahiye? https://wa.me/917974217411?text=Namaste%20(FB-C04)\n\n#DigitalMarketingIndia #LeadGeneration",
+   "metadata": {
+    "facebook": {
+     "type": "post"
+    }
+   }
+  },
+  {
+   "service": "googlebusiness",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-19_Ads_Budget_Carousel/GBP_1200x900.png"
+   ],
+   "remotePrefix": "ft-2026-11-11-ads-gbp",
+   "alt": [
+    "FutureTech graphic in Hindi: ads chal rahi hain par budget waste ho raha hai. Funnel dikhata hai galat audience, kamzor page, follow-up aur tracking ki kami."
+   ],
+   "text": "Ads chal rahi hain par budget waste ho raha hai? Ads badhane se pehle sahi audience, saaf page aur WhatsApp button, aur jaldi follow-up ke saath tracking theek karein. FutureTech aapki ads ki ye cheezein jaanchne mein madad karta hai.",
+   "metadata": {
+    "google": {
+     "type": "whats_new",
+     "detailsWhatsNew": {
+      "button": "learn_more",
+      "link": "https://futuretechdigitalmarketingagency.com/?utm_source=gbp&utm_campaign=p07"
+     }
+    }
+   }
+  }
+ ]
+}
