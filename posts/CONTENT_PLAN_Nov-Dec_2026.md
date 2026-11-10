@@ -62,3 +62,41 @@ Notes
 - Myth vs Fact / checklist / Reels follow the same segment rotation where possible (12 Nov Myth vs Fact = Coaching/College).
 - Real results, case studies, patient/student photos only with written permission; otherwise flat illustrations.
 - Founder to confirm the 4 segments and their order before 17 Nov carousel is built.
+
+---
+# v2 — Founder direction (10 Nov night): Carousel = deep, Single = one concept
+
+**Rule 1 — Carousel (detailed, minimum 6 slides, usually 7-8):** business-wise digital marketing strategy, "why" topics, full plans. Cover names the business ("Gym ke liye").
+**Rule 2 — Single post (1 image): one concept, "X kya hota hai?"** Format: question headline -> one-line definition -> one simple example -> why it matters for a small business -> one action. No jargon without a Hindi explanation.
+Supersedes the earlier "carousel by segment" table and Myth vs Fact cadence where they clash. 11 Nov ads carousel (already scheduled) stays.
+
+## Carousel library (min 6 slides each)
+Standard skeleton (8 slides): 1 Cover + business badge · 2 Goal/problem · 3 Google (Business Profile, Maps, reviews) · 4 Social content (what to post) · 5 WhatsApp enquiry flow · 6 Ads (small, tested, no budget promises) · 7 Follow-up + tracking · 8 30/60/90-day plan + CTA.
+- **Website kyu zaruri hai** (generic, 7-8 slides)
+- **Gym ke liye digital marketing plan** (see notes below)
+- Coaching / College · Clinic / Doctor · Salon / Parlour · Restaurant / Cafe · Dukaan / Retail · Real estate · Wedding service (photographer, tent house, caterer) · Repair / local service
+
+### Gym plan notes
+Slides: cover -> goal (membership enquiries, not "likes") -> Google Profile (timings, trainers, photos, Maps) -> Instagram content (trainer tips, class timings, equipment tour, member stories ONLY with written permission) -> WhatsApp enquiry flow (timings, trial slot booking) -> local ads basics -> follow-up (missed enquiry, renewal reminder) -> 30-day plan + CTA.
+Compliance: no "lose X kg in Y days", no guaranteed transformation, no before/after without written consent, no price/offer unless founder confirms.
+
+## Single concept posts ("X kya hota hai?")
+Knowledge Graph / Knowledge Panel · Local SEO · SEO vs Ads · Landing page · Domain vs Hosting · SSL/HTTPS (secure site) · NAP (name-address-phone consistency) · Lead vs Enquiry · Reach vs Impressions · Meta Pixel · Retargeting · UTM link · CRM (simple) · Schema markup.
+Knowledge Graph single (verify wording against Google's help pages before publishing): what it is (Google's database of entities/facts that can show in a panel), how a business may get a panel (consistent info, Google Business Profile, website, trusted mentions) — no promise that a panel will appear.
+
+## Calendar (Tue carousel · Thu single · Sat Reel · festivals only main)
+| Date | Format | Topic |
+|---|---|---|
+| Tue 17 Nov | Carousel (8) | Website kyu zaruri hai |
+| Thu 19 Nov | Single | Knowledge Graph kya hota hai? |
+| Sat 21 Nov | Reel | Website + Google + WhatsApp in 30 sec |
+| Tue 24 Nov | Greeting 8 AM | Guru Nanak Jayanti |
+| Thu 26 Nov | Carousel (8) | Gym ke liye digital marketing plan |
+| Tue 1 Dec | Carousel (8) | Coaching / College strategy |
+| Thu 3 Dec | Single | Local SEO kya hota hai? |
+| Tue 8 Dec | Carousel (8) | Clinic / Doctor strategy (medical ad rules) |
+| Thu 10 Dec | Single | Domain vs Hosting |
+| Tue 15 Dec | Carousel (8) | Salon / Parlour strategy |
+| Thu 17 Dec | Single | Landing page kya hota hai? |
+| Tue 22 Dec | Carousel (8) | Restaurant / Cafe strategy |
+| Thu 24 Dec | Single | SSL / HTTPS kya hai? |
