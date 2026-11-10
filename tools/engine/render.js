@@ -37,6 +37,7 @@ async function main() {
   for (const p of POSTS) {
     if (only.length && !only.includes(p.id)) continue;
     const dir = folder(p); fs.mkdirSync(dir, { recursive: true }); const jobs = []; const files = { ig: [], fb: [], gbp: [] };
+    if (p.kind === 'carousel') { const n0 = p.slides.length; p.alt = p.slides.map((s, i) => `FutureTech Hindi carousel slide ${i + 1} of ${n0}. ${(p.altTopics || [])[i] || ''}`.trim()); }
     const igF = F.ig, fbF = p.kind === 'carousel' ? F.fb : F.fb12;
     if (p.kind === 'carousel') {
       const n = p.slides.length;

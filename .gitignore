@@ -5,3 +5,4 @@ tools/ads/
 tools/vo1/
 tools/*.json.bak
 posts/**/prev/
+tools/engine/_tmp_*/

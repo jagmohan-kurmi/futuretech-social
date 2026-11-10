@@ -7,10 +7,10 @@ const poll = (n, date, q, opts, note) => ({ id: `poll-${n}`, kind: 'poll', date,
 const reel = (n, date, slug, title, h, sub, art, lines, caption) => ({ id: `reel-${n}`, kind: 'reel', date, time: '19:00', slug, title, slide: { chip: 'REEL', h, sub, art, raw: art.startsWith('<svg') }, script: { dur: '30 sec', lines, caption } });
 
 const kg = single({ id: 'kg', date: '2026-11-19', slug: 'Knowledge_Graph', lead: 'P08', utm: 'p08', title: 'SINGLE — Knowledge Graph kya hota hai?',
-  slide: { chip: 'KYA HOTA HAI?', h: 'Knowledge Graph <span class="mk">क्या होता है?</span>', sub: 'Search में दिखने वाले information panel के पीछे की चीज़', art: A.concept('Knowledge Graph', 'Google का जानकारी का नक्शा — लोग, जगह, business और चीज़ें, और उनके आपस के रिश्ते।', 'कभी-कभी search के साथ एक <b>information panel</b> दिखता है।', 'graph'), fix: ['करें', 'हर जगह नाम-पता-फ़ोन एक जैसा रखें, Google Profile पूरा भरें।'] },
+  slide: { chip: 'KYA HOTA HAI?', h: 'Knowledge Graph <span class="mk">क्या होता है?</span>', sub: 'Search में दिखने वाले information panel के पीछे की चीज़', art: A.concept('Knowledge Graph', 'Google का “जानकारी का नक्शा” — लोग, जगह, business और चीज़ें, और उनके आपसी रिश्ते।', 'कभी-कभी search के साथ एक <b>information panel</b> दिखता है।', 'graph'), fix: ['करें', 'हर जगह नाम-पता-फ़ोन एक जैसा रखें, Google Profile पूरा भरें।'] },
   ig: `Knowledge Graph क्या होता है? 🧠
 
-Google का जानकारी का नक्शा: लोग, जगह, business और चीज़ें — और उनके आपस के रिश्ते।
+Google का “जानकारी का नक्शा”: लोग, जगह, business और चीज़ें — और उनके आपसी रिश्ते।
 
 कभी-कभी search के साथ जो information panel दिखता है, उसके पीछे ऐसी ही जानकारी होती है।
 
@@ -19,14 +19,14 @@ Google का जानकारी का नक्शा: लोग, जगह
 ✅ सब जगह नाम-पता-फ़ोन एक जैसा रखें
 ✅ Website पर साफ़ जानकारी रखें
 
-ध्यान रहे: panel दिखेगा, इसकी कोई guarantee नहीं होती।
+आप Knowledge Graph को सीधे edit नहीं कर सकते, पर सही और एक जैसी जानकारी रखकर असर डाल सकते हैं। Panel दिखेगा, इसकी कोई guarantee नहीं होती।
 
 सवाल हो तो WhatsApp करें 📲 79742 17411 | Save करें
 
 #DigitalMarketingIndia #LocalSEO #SmallBusinessIndia #GoogleBusinessProfile #SEOBasics`,
   fb: `Knowledge Graph क्या होता है? 🧠
 
-Google का जानकारी का नक्शा — लोग, जगह, business और उनके रिश्ते।
+Google का “जानकारी का नक्शा” — लोग, जगह, business और उनके आपसी रिश्ते।
 
 ✅ Google Profile पूरा भरें
 ✅ नाम-पता-फ़ोन हर जगह एक जैसा
@@ -37,7 +37,7 @@ Google का जानकारी का नक्शा — लोग, जग
 सवाल हो तो: ${wa('FB-P08')}
 
 #LocalSEO #SmallBusinessIndia`,
-  gbp: 'Knowledge Graph क्या होता है? यह Google की जानकारी का नक्शा है जिसमें लोग, जगह और business और उनके आपसी रिश्ते जुड़े होते हैं। Google Business Profile पूरा भरें और नाम, पता, फ़ोन हर जगह एक जैसा रखें। Information panel दिखने की guarantee नहीं होती।',
+  gbp: 'Knowledge Graph क्या होता है? यह Google का जानकारी का नक्शा है, जिसमें लोग, जगह, business और उनके आपसी रिश्ते जुड़े होते हैं। Google Business Profile पूरा भरें और नाम, पता, फ़ोन हर जगह एक जैसा रखें। Information panel दिखने की guarantee नहीं होती।',
   alt: ['Knowledge Graph kya hota hai: Google ka jankari ka naksha'], altGbp: 'FutureTech graphic in Hindi: Knowledge Graph kya hota hai.' });
 
 const mythBudget = single({ id: 'myth-budget', date: '2026-11-20', slug: 'Myth_Budget_Leads', lead: 'P09', utm: 'p09', title: 'SINGLE — Myth vs Fact: budget badhao = leads badhengi?',
