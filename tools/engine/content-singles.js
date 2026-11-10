@@ -211,6 +211,8 @@ const reels = [
   reel(4, '2026-12-05', 'Reel_Landing_Page_ya_WhatsApp', 'REEL 4 — Landing page ya WhatsApp? (30s)', 'Landing page या <span class="blue">WhatsApp?</span>', 'Ad के बाद customer को कहाँ भेजें', A.compare({ h: 'सीधे WhatsApp', rows: ['जब customer पहले से जानता है', 'जल्दी बात शुरू'] }, { h: 'Landing page', rows: ['नया customer — पहले जानकारी', 'फिर WhatsApp button'] }),
     R('0-2s HOOK: "Ad के बाद customer को कहाँ भेजें?"', '2-12s Landing page: naya customer ko pehle saaf jaankari chahiye, phir WhatsApp button.', '12-22s Seedha WhatsApp: jo customer pehle se jaanta hai, usse seedhi baat.', '22-26s Rule of thumb: aam taur par naye logon ko page, purane logon ko WhatsApp. (judgement, not a statistic)', '26-30s End card: WhatsApp 79742 17411.'),
     'Ad के बाद customer को कहाँ भेजें? Landing page या WhatsApp 📲 79742 17411 #DigitalMarketingIndia #SmallBusinessIndia #LeadGeneration'),
+  reel(5, '2026-12-12', 'Reel_Dukaan_Ka_Hisaab_Ek_Jagah', 'REEL 5 — Notebook + Excel + WhatsApp se hisaab? Ek jagah (dukaandar, medical/kirana/electronics) (~40s)', 'दुकान का हिसाब <span class="blue">कहाँ</span> है?', 'Notebook, Excel या WhatsApp में?', A.hub(A.hubCenter('shop'), [{ icon: 'doc', l: 'Notebook में', l2: 'उधार' }, { icon: 'list', l: 'Excel में', l2: 'stock' }, { icon: 'wa', l: 'WhatsApp में', l2: 'orders' }, { icon: 'user', l: 'Salary का', l2: 'अलग हिसाब' }]),
+    R('see scenes'), 'दुकान का हिसाब Notebook, Excel और WhatsApp में बिखरा है? एक जगह कैसे हो सकता है, देखिए 👇 WhatsApp करें 📲 79742 17411 #SmallBusinessIndia #WebApp #BillingSoftware #Kirana #MedicalStore'),
 ];
 
 // ---- Infographics (reference-style: grid, hub ring, zigzag, problem/solution). No numbers/stats. Dates are PROPOSED extra slots.
