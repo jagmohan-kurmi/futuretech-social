@@ -1,0 +1,59 @@
+{
+ "dueAt": "2026-11-12T08:30:00.000Z",
+ "posts": [
+  {
+   "service": "instagram",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-12_Myth_Website_Generic/Instagram_1080x1350.png"
+   ],
+   "remotePrefix": "ft-2026-11-12-myth-website-generic-ig",
+   "alt": [
+    "FutureTech Myth vs Fact graphic in Hindi: website bana li, customer apne aap nahi aate. Website ko Google, Maps aur WhatsApp se jodna padta hai."
+   ],
+   "text": "\"Website bana li, ab customer apne aap aayenge\" — sach ya myth? 🤔\n\nMyth hai. Website aapke business ka pata hai. Customer tak pahunchne ke liye use jodna padta hai:\n1️⃣ Google par dikhein — sahi title, description aur services pages\n2️⃣ Google Business Profile banayein — Maps aur \"near me\" search ke liye\n3️⃣ WhatsApp / Call button rakhein — customer ek tap mein aap tak pahunche\n\nWebsite hai par customer nahi aa rahe? WhatsApp karein 📲 79742 17411\n\nSave karein, aur jo dost business chalata hai usko bhejiye.\n\n#SmallBusinessIndia #DigitalMarketingIndia #LocalSEO #WebsiteTips #BusinessGrowth",
+   "metadata": {
+    "instagram": {
+     "type": "post",
+     "shouldShareToFeed": true,
+     "isAiGenerated": false
+    }
+   }
+  },
+  {
+   "service": "facebook",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-12_Myth_Website_Generic/Facebook_1200x1200.png"
+   ],
+   "remotePrefix": "ft-2026-11-12-myth-website-generic-fb",
+   "alt": [
+    "FutureTech Myth vs Fact graphic in Hindi: website bana li, customer apne aap nahi aate. Website ko Google, Maps aur WhatsApp se jodna padta hai."
+   ],
+   "text": "Website bana li, ab customer apne aap aayenge? 🤔\n\n❌ Myth: Website bana li to customer apne aap aayenge.\n✅ Fact: Website business ka pata hai. Customer tak pahunchne ke liye Google, WhatsApp aur promotion se jodna padta hai.\n\n• Google par dikhein\n• Google Business Profile banayein\n• WhatsApp / Call button rakhein\n\nMadad chahiye? https://wa.me/917974217411?text=Namaste%20(FB-P05)\n\n#SmallBusinessIndia #LocalSEO",
+   "metadata": {
+    "facebook": {
+     "type": "post"
+    }
+   }
+  },
+  {
+   "service": "googlebusiness",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-12_Myth_Website_Generic/GBP_1200x900.png"
+   ],
+   "remotePrefix": "ft-2026-11-12-myth-website-generic-gbp",
+   "alt": [
+    "FutureTech Myth vs Fact graphic in Hindi: website bana li, customer apne aap nahi aate. Website ko Google, Maps aur WhatsApp se jodna padta hai."
+   ],
+   "text": "Website bana lene se customer apne aap nahi aate. Website ko Google Search, Google Business Profile aur WhatsApp ya call button se jodna padta hai. FutureTech aapko yeh sab sahi tarah se set karne mein madad karta hai.",
+   "metadata": {
+    "google": {
+     "type": "whats_new",
+     "detailsWhatsNew": {
+      "button": "learn_more",
+      "link": "https://futuretechdigitalmarketingagency.com/?utm_source=gbp&utm_campaign=p05"
+     }
+    }
+   }
+  }
+ ]
+}

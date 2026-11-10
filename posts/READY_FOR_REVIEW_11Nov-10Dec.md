@@ -1,6 +1,6 @@
 # FINAL 30-day calendar (11 Nov – 10 Dec 2026) — drafts ready for founder review
 
-Nothing is scheduled except the 11 Nov ads carousel. Every folder has images for all platforms, `Captions.txt` (IG/FB/GBP, alt text, lead codes) and `spec.json` for Buffer.
+SCHEDULED in Buffer (10 per channel, plan limit): 11 Nov, 12, 13, 17, 19, 20, 24, 26, 27 Nov, 1 Dec. NOT yet scheduled: 3, 4, 8, 10 Dec (limit) — see SCHEDULE.md. Every folder has images for all platforms, `Captions.txt` (IG/FB/GBP, alt text, lead codes) and `spec.json` for Buffer.
 Schedule only after the founder's explicit OK: `node tools/post-schedule.js <folder>/spec.json upload` then `... schedule`. Contact sheets: `posts/_review_sheets/`. Rebuild: `node tools/engine/render.js [id]`.
 Rhythm: 4 feed posts/week (Tue carousel · Thu single · Fri infographic/myth · Sat Reel) + Wed Story poll. Services covered: website, web app/billing, Google Profile/Local SEO, ads. Segments: gym, coaching, clinic.
 
