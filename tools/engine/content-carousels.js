@@ -4,7 +4,7 @@ const wa = c => `https://wa.me/917974217411?text=Namaste%20(${c})`;
 const H = { sb: '#SmallBusinessIndia', dm: '#DigitalMarketingIndia', ls: '#LocalSEO' };
 
 const website = {
-  id: 'website-why', kind: 'carousel', date: '2026-11-17', time: '14:00', slug: 'Website_Kyu_Zaruri', lead: 'C05', utm: 'c05', series: 'WEBSITE SERIES',
+  id: 'website-why', kind: 'carousel', date: '2026-12-15', time: '14:00', slug: 'Website_Kyu_Zaruri', lead: 'C05', utm: 'c05', series: 'WEBSITE SERIES',
   title: 'CAROUSEL — Website kyu zaruri hai (8 slides)', gbpH: 'Website <span class="mk">क्यों ज़रूरी</span> है?',
   slides: [
     { aud: 'हर business के लिए', h: 'Website <span class="mk">क्यों ज़रूरी</span> है?', sub: 'Social media किराये का घर है, website आपकी अपनी दुकान', art: A.hub(A.hubCenter('browser'), [{ icon: 'search', l: 'Google पर', l2: 'दिखें' }, { icon: 'wa', l: 'WhatsApp', l2: 'enquiry' }, { icon: 'shield', l: 'भरोसा', l2: 'बने' }, { icon: 'clock', l: 'हर समय', l2: 'खुली' }]), raw: true, fix: ['6 कारण', 'जो हर small business को पता होने चाहिए'] },
@@ -183,4 +183,49 @@ Presence सुधारने के लिए: ${wa('FB-C08')}
   altTopics: ['Clinic online presence', 'Patient kya khojta hai', 'Clinic ka Google Profile', 'Google Profile jaanch', 'Website par kya ho', 'WhatsApp appointment', 'Content mein kya karein kya nahi', '30 din ka plan', 'WhatsApp 79742 17411'],
   altGbp: 'FutureTech graphic in Hindi: clinic ki online presence kaise banayein.',
 };
-module.exports = [website, gym, coaching, clinic];
+
+const webapp = {
+  id: 'webapp-plan', kind: 'carousel', date: '2026-11-17', time: '14:00', slug: 'WebApp_Excel_WhatsApp_Business', lead: 'C09', utm: 'c09', series: 'WEB APP',
+  title: 'CAROUSEL — Excel + WhatsApp se business manage? Web app (8 slides)', gbpH: 'अभी भी <span class="mk">Excel और WhatsApp</span> पर business manage करते हैं?',
+  slides: [
+    { aud: 'हर छोटे business के लिए', h: 'अभी भी <span class="mk">Excel और WhatsApp</span> पर business manage करते हैं?', sub: 'Orders, हिसाब और customers — एक जगह कैसे?', art: A.hub(A.hubCenter('chat'), [{ icon: 'list', l: 'Orders चैट', l2: 'में बिखरे' }, { icon: 'bell', l: 'Payment', l2: 'याद नहीं' }, { icon: 'doc', l: 'हिसाब', l2: 'Excel में' }, { icon: 'users', l: 'Customer', l2: 'की list' }]), raw: true, fix: ['सवाल', 'आपका सबसे ज़्यादा समय कहाँ जाता है?'] },
+    { h: 'Orders चैट में <span class="blue">बिखर</span> जाते हैं', sub: 'WhatsApp में order ढूँढना, फिर Excel में लिखना — दोहरा काम।', art: A.phoneSide(A.chat([['in', 'Bhaiya 2 box bhej dena'], ['out', 'Ji, kal tak bhej denge'], ['in', 'Pichle hafte wala order kaunsa tha?']]), [{ icon: 'search', t: 'Order ढूँढना' }, { icon: 'clock', t: 'समय बर्बाद' }, { icon: 'repeat', t: 'दोहरा काम' }]) },
+    { h: 'ये <span class="blue">5 सवाल</span> ख़ुद से पूछिए', sub: 'जवाब ढूँढने में समय लगे, तो system की ज़रूरत हो सकती है।', art: A.scorecard(['किस customer का कितना payment बाकी है?', 'आज कौन सा order भेजना है?', 'कौन सा stock कम हो रहा है?', 'इस महीने का हिसाब कहाँ है?', 'पुराने customer की history मिलती है?'], { mark: '?' }) },
+    { h: '<span class="blue">Web app</span> क्या है?', sub: '', art: A.concept('Web App', 'आपके business का अपना software — phone या computer के browser में खुलता है।', 'जैसे: <b>orders, billing, stock और customers</b> — सब एक जगह।', 'globe') },
+    { h: 'Web app में <span class="blue">क्या-क्या</span> हो सकता है', sub: 'ज़रूरत के हिसाब से modules चुने जाते हैं।', art: A.hubRing('आपका', 'Web App', [{ icon: 'list', l: 'Orders का', l2: 'record' }, { icon: 'users', l: 'Customer', l2: 'list' }, { icon: 'doc', l: 'Bill /', l2: 'Invoice' }, { icon: 'bell', l: 'Payment', l2: 'reminder' }, { icon: 'store', l: 'Stock की', l2: 'जानकारी' }, { icon: 'user', l: 'Staff और', l2: 'काम' }, { icon: 'trend', l: 'Reports' }, { icon: 'wa', l: 'WhatsApp', l2: 'updates' }]), raw: true },
+    { h: 'किन <span class="blue">business</span> को ज़रूरत हो सकती है', sub: 'जहाँ रोज़ orders, payment और customers का हिसाब रखना पड़ता है।', art: A.checklist([{ icon: 'store', t: 'दुकान / Retail / Wholesale' }, { icon: 'cut', t: 'Salon / Parlour' }, { icon: 'grad', t: 'Coaching / Institute' }, { icon: 'call', t: 'Service / Repair' }]) },
+    { h: 'शुरुआत <span class="blue">कैसे</span> करें', sub: 'सब कुछ एक साथ नहीं — छोटे से शुरू करें।', art: A.cards([{ icon: 'list', t: 'सबसे बड़ी परेशानी', s: 'लिखकर रखें' }, { icon: 'check', t: 'ज़रूरी modules', s: 'सिर्फ़ वही चुनें' }, { icon: 'bolt', t: 'छोटे से शुरू', s: 'फिर बढ़ाएँ' }]) },
+    { cta: true, h: 'अपने business का हिसाब <span class="blue">एक जगह</span> लाना है?', recap: [{ icon: 'list', t: 'Orders और customers' }, { icon: 'bell', t: 'Payment reminder' }, { icon: 'trend', t: 'Reports' }], ask: 'Namaste, mujhe apne business ke liye web app ke baare mein poochna hai', reply: 'Namaste! Bataiye, aapka business kya hai?', share: 'Business वाले दोस्त को भेजें' },
+  ],
+  ig: `अभी भी Excel और WhatsApp पर business manage कर रहे हैं? 📊
+
+Orders चैट में बिखरते हैं, payment याद नहीं रहता, हिसाब Excel में — दोहरा काम।
+
+ख़ुद से पूछिए:
+❓ किस customer का कितना payment बाकी है?
+❓ आज कौन सा order भेजना है?
+❓ कौन सा stock कम हो रहा है?
+
+जवाब ढूँढने में समय लगे, तो web app की ज़रूरत हो सकती है — orders, billing, stock और customers एक जगह।
+
+आपका सबसे ज़्यादा समय कहाँ जाता है? नीचे comment करें 👇
+बात करनी है? WhatsApp करें 📲 79742 17411 | Save करें
+
+#SmallBusinessIndia #DigitalMarketingIndia #WebApp #BusinessSoftware #BillingSoftware`,
+  fb: `अभी भी Excel और WhatsApp पर business manage कर रहे हैं? 📊 (swipe करें)
+
+❌ Orders चैट में बिखरे
+❌ Payment याद नहीं
+❌ हिसाब Excel में
+
+✅ Web app: orders, billing, stock और customers एक जगह
+
+आपका सबसे ज़्यादा समय कहाँ जाता है? बात करने के लिए: ${wa('FB-C09')}
+
+#WebApp #SmallBusinessIndia`,
+  gbp: 'Excel और WhatsApp पर business manage करने में orders बिखर जाते हैं और payment याद नहीं रहता। Web app में orders, billing, stock और customers एक जगह रहते हैं, ज़रूरत के हिसाब से modules के साथ। Sagar (MP) की FutureTech Digital Marketing Agency custom web app और billing software बनाती है।',
+  altTopics: ['Excel aur WhatsApp par business manage cover', 'Orders chat mein bikhar jate hain', '5 sawal khud se poochhiye', 'Web app kya hai', 'Web app mein kya-kya ho sakta hai', 'Kin business ko zarurat ho sakti hai', 'Shuruaat kaise karein', 'WhatsApp 79742 17411'],
+  altGbp: 'FutureTech graphic in Hindi: Excel aur WhatsApp ki jagah web app.',
+};
+
+module.exports = [webapp, website, gym, coaching, clinic];

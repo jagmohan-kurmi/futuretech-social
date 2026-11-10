@@ -40,7 +40,7 @@ Google का “जानकारी का नक्शा” — लोग, 
   gbp: 'Knowledge Graph क्या होता है? यह Google का जानकारी का नक्शा है, जिसमें लोग, जगह, business और उनके आपसी रिश्ते जुड़े होते हैं। Google Business Profile पूरा भरें और नाम, पता, फ़ोन हर जगह एक जैसा रखें। Information panel दिखने की guarantee नहीं होती।',
   alt: ['Knowledge Graph kya hota hai: Google ka jankari ka naksha'], altGbp: 'FutureTech graphic in Hindi: Knowledge Graph kya hota hai.' });
 
-const mythBudget = single({ id: 'myth-budget', date: '2026-11-20', slug: 'Myth_Budget_Leads', lead: 'P09', utm: 'p09', title: 'SINGLE — Myth vs Fact: budget badhao = leads badhengi?',
+const mythBudget = single({ id: 'myth-budget', date: '2026-12-11', slug: 'Myth_Budget_Leads', lead: 'P09', utm: 'p09', title: 'SINGLE — Myth vs Fact: budget badhao = leads badhengi?',
   slide: { chip: 'MYTH VS FACT', h: '<span class="mk">Budget बढ़ाने</span> से leads बढ़ेंगी?', sub: 'Myth: “Ad का budget बढ़ाओ, leads अपने आप बढ़ जाएँगी।”', art: A.cards([{ icon: 'target', t: 'सही audience' }, { icon: 'globe', t: 'साफ़ page' }, { icon: 'repeat', t: 'Follow-up' }]), fix: ['FACT', 'पहले audience, page और follow-up ठीक करें, फिर budget सोचें।'] },
   ig: `“Ad का budget बढ़ाओ, leads बढ़ जाएँगी” — सच या myth? 🤔
 
@@ -125,7 +125,7 @@ const localseo = single({ id: 'local-seo', date: '2026-12-03', slug: 'Local_SEO_
   gbp: 'Local SEO यानी अपने शहर या इलाके के लोगों को Google और Maps पर दिखना। Google Business Profile पूरा भरें, नाम-पता-फ़ोन एक जैसा रखें और reviews का जवाब दें। FutureTech आपके business के लिए Local SEO में मदद करता है।',
   alt: ['Local SEO kya hota hai: apne shehar ke logon ko Google aur Maps par dikhna'], altGbp: 'FutureTech graphic in Hindi: Local SEO kya hota hai.' });
 
-const mythBoost = single({ id: 'myth-boost', date: '2026-12-04', slug: 'Myth_Boost_Button', lead: 'P12', utm: 'p12', title: 'SINGLE — Myth vs Fact: Boost = ad campaign?',
+const mythBoost = single({ id: 'myth-boost', date: '2026-12-18', slug: 'Myth_Boost_Button', lead: 'P12', utm: 'p12', title: 'SINGLE — Myth vs Fact: Boost = ad campaign?',
   slide: { chip: 'MYTH VS FACT', h: '<span class="mk">Boost</span> button = ad campaign?', sub: 'Myth: “Boost दबा दिया, मतलब ad चल गई — सब हो गया।”', art: A.cards([{ icon: 'bolt', t: 'Boost', s: 'एक post को promote करने का आसान तरीका' }, { icon: 'target', t: 'Campaign', s: 'Goal, audience, budget और tracking पर ज़्यादा control' }], false), fix: ['FACT', 'आसान और ज़्यादा control में फ़र्क़ है — goal के हिसाब से चुनें।'] },
   ig: `“Boost दबा दिया, मतलब ad चल गई” — सच या myth? 🤔
 
@@ -149,7 +149,7 @@ Ads का plan चाहिए? WhatsApp करें 📲 79742 17411 | Save �
   gbp: 'Boost button और ad campaign एक जैसे नहीं हैं। Boost एक post को promote करने का आसान तरीका है, जबकि campaign में goal, audience, budget और tracking पर ज़्यादा control मिलता है। FutureTech आपके goal के हिसाब से सही तरीका चुनने में मदद करता है।',
   alt: ['Myth vs Fact: Boost button aur ad campaign mein farq'], altGbp: 'FutureTech graphic in Hindi: Boost button aur ad campaign mein farq.' });
 
-const domain = single({ id: 'domain-hosting', date: '2026-12-10', slug: 'Domain_vs_Hosting', lead: 'P13', utm: 'p13', title: 'SINGLE — Domain vs Hosting',
+const domain = single({ id: 'domain-hosting', date: '2026-12-17', slug: 'Domain_vs_Hosting', lead: 'P13', utm: 'p13', title: 'SINGLE — Domain vs Hosting',
   slide: { chip: 'KYA HOTA HAI?', h: 'Domain और Hosting <span class="mk">में फ़र्क़</span>', sub: 'Website लेने से पहले ये दो बातें समझ लें', art: A.cards([{ icon: 'globe', t: 'Domain', s: 'Website का नाम / पता, जैसे aapkidukaan.in' }, { icon: 'server', t: 'Hosting', s: 'वो जगह जहाँ website की files रखी रहती हैं' }], false), fix: ['याद रखें', 'Domain पता है, Hosting वो जगह जहाँ दुकान खड़ी है।'] },
   ig: `Domain और Hosting में फ़र्क़ क्या है? 🌐
 
@@ -215,7 +215,7 @@ const reels = [
 
 // ---- Infographics (reference-style: grid, hub ring, zigzag, problem/solution). No numbers/stats. Dates are PROPOSED extra slots.
 const info = (o) => single({ chipGbp: '', ...o });
-const infoGym = info({ id: 'info-gym', date: '2026-11-30', slug: 'Infographic_Gym_Fayde', lead: 'P14', utm: 'p14', title: 'INFOGRAPHIC — Gym ke liye digital marketing ke 6 fayde (grid)',
+const infoGym = info({ id: 'info-gym', date: '2026-12-14', slug: 'Infographic_Gym_Fayde', lead: 'P14', utm: 'p14', title: 'INFOGRAPHIC — Gym ke liye digital marketing ke 6 fayde (grid)',
   slide: { chip: 'INFOGRAPHIC', h: 'Gym के लिए digital marketing के <span class="mk">6 फ़ायदे</span>', sub: 'सही तरीके से करने पर', art: A.grid([{ icon: 'trend', t: 'ज़्यादा enquiry के मौके' }, { icon: 'pin', t: 'Google / Maps पर दिखना' }, { icon: 'tag', t: 'अपनी पहचान मज़बूत' }, { icon: 'target', t: 'सही लोगों तक ad' }, { icon: 'money', t: 'छोटे budget से शुरुआत' }, { icon: 'users', t: 'Members से जुड़े रहना' }], 3), fix: ['ध्यान', 'नतीजे आपके plan और मेहनत पर निर्भर करते हैं'] },
   ig: `Gym के लिए digital marketing के 6 फ़ायदे 💪 (save करें)
 
@@ -246,7 +246,7 @@ const infoGym = info({ id: 'info-gym', date: '2026-11-30', slug: 'Infographic_Gy
   gbp: 'Gym के लिए digital marketing के फ़ायदे: ज़्यादा enquiry के मौके, Google और Maps पर दिखना, सही लोगों तक ad, छोटे budget से शुरुआत और members से जुड़े रहना। नतीजे plan और मेहनत पर निर्भर करते हैं। Sagar (MP) की FutureTech Digital Marketing Agency gym के लिए plan बनाने में मदद करती है।',
   alt: ['Gym ke liye digital marketing ke 6 fayde: enquiry, Google Maps, pehchaan, targeted ad, chhota budget, members se jude rehna'], altGbp: 'FutureTech infographic in Hindi: gym ke liye digital marketing ke 6 fayde.' });
 
-const infoApp = info({ id: 'info-webapp-hub', date: '2026-12-11', slug: 'Infographic_WebApp_Modules', lead: 'P15', utm: 'p15', title: 'INFOGRAPHIC — Web app mein kya-kya ho sakta hai (hub)',
+const infoApp = info({ id: 'info-webapp-hub', date: '2026-12-10', slug: 'Infographic_WebApp_Modules', lead: 'P15', utm: 'p15', title: 'INFOGRAPHIC — Web app mein kya-kya ho sakta hai (hub)',
   slide: { chip: 'INFOGRAPHIC', h: 'Web app में क्या-क्या <span class="mk">हो सकता है?</span>', sub: 'Excel और WhatsApp की जगह, एक जगह पूरा हिसाब', art: A.hubRing('आपका', 'Web App', [{ icon: 'list', l: 'Orders का', l2: 'record' }, { icon: 'users', l: 'Customer', l2: 'list' }, { icon: 'doc', l: 'Bill /', l2: 'Invoice' }, { icon: 'bell', l: 'Payment', l2: 'reminder' }, { icon: 'store', l: 'Stock की', l2: 'जानकारी' }, { icon: 'user', l: 'Staff और', l2: 'काम' }, { icon: 'trend', l: 'Reports' }, { icon: 'wa', l: 'WhatsApp', l2: 'updates' }]), raw: true, fix: ['सुझाव', 'ज़रूरत के हिसाब से modules चुने जाते हैं'] },
   ig: `Web app में क्या-क्या हो सकता है? 🧩 (save करें)
 
@@ -278,7 +278,7 @@ Excel और WhatsApp की जगह एक जगह पूरा हिस�
   gbp: 'Web app में orders, customer list, bill या invoice, payment reminder, stock, staff और reports जैसे modules हो सकते हैं, जो आपकी ज़रूरत के हिसाब से चुने जाते हैं। Sagar (MP) की FutureTech Digital Marketing Agency custom web app और billing software बनाती है।',
   alt: ['Web app mein kya-kya ho sakta hai: orders, customers, billing, payment reminder, stock, staff, reports, WhatsApp updates'], altGbp: 'FutureTech infographic in Hindi: web app mein kya-kya ho sakta hai.' });
 
-const infoPain = info({ id: 'info-webapp-pain', date: '2026-12-07', slug: 'Infographic_Excel_WhatsApp_vs_WebApp', lead: 'P16', utm: 'p16', title: 'INFOGRAPHIC — Excel + WhatsApp vs Web app (problem/solution)',
+const infoPain = info({ id: 'info-webapp-pain', date: '2026-12-04', slug: 'Infographic_Excel_WhatsApp_vs_WebApp', lead: 'P16', utm: 'p16', title: 'INFOGRAPHIC — Excel + WhatsApp vs Web app (problem/solution)',
   slide: { chip: 'INFOGRAPHIC', h: 'अभी भी Excel और WhatsApp पर <span class="blue">business manage</span> करते हैं?', sub: '', art: A.compare({ h: 'Excel + WhatsApp', rows: ['Orders चैट में बिखरे', 'Payment याद नहीं रहता', 'हिसाब हाथ से', 'Customer की जानकारी अलग-अलग'] }, { h: 'Web app', rows: ['सारा record एक जगह', 'Payment reminder', 'Stock / bill साफ़', 'Customer की पूरी history'] }, true), fix: ['सवाल', 'आपका सबसे ज़्यादा समय कहाँ जाता है?'] },
   ig: `अभी भी Excel और WhatsApp पर business manage कर रहे हैं? 🤔
 
@@ -340,4 +340,35 @@ Sagar (MP) से, पूरे India के लिए।
   gbp: 'Sagar (MP) की FutureTech Digital Marketing Agency website, custom web app और billing software, Google Business Profile व Local SEO, और Google व Meta ads में छोटे business की मदद करती है।',
   alt: ['FutureTech services: website, web app billing software, Google Profile Local SEO, Google aur Meta ads'], altGbp: 'FutureTech infographic in Hindi: hamari services.' });
 
-module.exports = [infoGym, infoApp, infoPain, infoSvc, kg, mythBudget, nap, localseo, mythBoost, domain, greet, ...polls, ...reels];
+const infoLocal = info({ id: 'info-local-steps', date: '2026-11-20', slug: 'Infographic_Google_Par_Dikhne_Ke_6_Kadam', lead: 'P18', utm: 'p18', title: 'INFOGRAPHIC — Google par dikhne ke 6 kadam (zig-zag)',
+  slide: { chip: 'INFOGRAPHIC', h: 'Google पर दिखने के <span class="mk">6 कदम</span>', sub: 'Local SEO की शुरुआत', art: A.zigzag([{ icon: 'pin', t: 'Google Profile claim करें' }, { icon: 'doc', t: 'नाम-पता-फ़ोन एक जैसा' }, { icon: 'clock', t: 'Timing और असली photos' }, { icon: 'list', t: 'Services / products जोड़ें' }, { icon: 'chat', t: 'Reviews का शुक्रिया और जवाब' }, { icon: 'bell', t: 'नियमित updates / posts' }]), fix: ['याद रखें', 'ranking की guarantee नहीं — सही जानकारी से शुरुआत'] },
+  ig: `Google पर दिखने के 6 कदम 📍 (save करें)
+
+1️⃣ Google Profile claim करें
+2️⃣ नाम-पता-फ़ोन हर जगह एक जैसा
+3️⃣ Timing और असली photos
+4️⃣ Services / products जोड़ें
+5️⃣ Reviews का शुक्रिया और जवाब
+6️⃣ नियमित updates / posts
+
+यह Local SEO की शुरुआत है। Ranking की कोई guarantee नहीं होती, पर सही जानकारी से शुरुआत होती है।
+
+मदद चाहिए? WhatsApp करें 📲 79742 17411
+
+#LocalSEO #DigitalMarketingIndia #SmallBusinessIndia #GoogleBusinessProfile #GoogleMaps`,
+  fb: `Google पर दिखने के 6 कदम 📍
+
+✅ Google Profile claim करें
+✅ नाम-पता-फ़ोन एक जैसा
+✅ Timing और असली photos
+✅ Services / products जोड़ें
+✅ Reviews का जवाब
+✅ नियमित updates
+
+(Ranking की guarantee नहीं।) मदद: ${wa('FB-P18')}
+
+#LocalSEO #SmallBusinessIndia`,
+  gbp: 'Google पर दिखने के 6 कदम: Google Profile claim करें, नाम-पता-फ़ोन एक जैसा रखें, timing और असली photos डालें, services जोड़ें, reviews का जवाब दें और नियमित updates करें। Ranking की guarantee नहीं होती। Sagar (MP) की FutureTech Digital Marketing Agency Local SEO में मदद करती है।',
+  alt: ['Google par dikhne ke 6 kadam: profile claim, NAP same, timing photos, services, reviews, updates'], altGbp: 'FutureTech infographic in Hindi: Google par dikhne ke 6 kadam.' });
+
+module.exports = [infoLocal, infoGym, infoApp, infoPain, infoSvc, kg, mythBudget, nap, localseo, mythBoost, domain, greet, ...polls, ...reels];

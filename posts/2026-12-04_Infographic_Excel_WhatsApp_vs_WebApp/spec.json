@@ -1,0 +1,59 @@
+{
+ "dueAt": "2026-12-04T08:30:00.000Z",
+ "posts": [
+  {
+   "service": "instagram",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-12-04_Infographic_Excel_WhatsApp_vs_WebApp/Instagram_1080x1350.png"
+   ],
+   "remotePrefix": "ft-2026-12-04-infographic-excel-whatsapp-vs-webapp-ig",
+   "alt": [
+    "Excel plus WhatsApp versus web app: orders, payment, hisaab, customer jankari"
+   ],
+   "text": "अभी भी Excel और WhatsApp पर business manage कर रहे हैं? 🤔\n\nExcel + WhatsApp में अक्सर:\n❌ Orders चैट में बिखर जाते हैं\n❌ Payment याद नहीं रहता\n❌ हिसाब हाथ से\n❌ Customer की जानकारी अलग-अलग\n\nWeb app में:\n✅ सारा record एक जगह\n✅ Payment reminder\n✅ Stock / bill साफ़\n✅ Customer की पूरी history\n\nआपका सबसे ज़्यादा समय कहाँ जाता है? नीचे comment करें 👇\n\nबात करनी है? WhatsApp करें 📲 79742 17411 | Save करें\n\n#SmallBusinessIndia #DigitalMarketingIndia #WebApp #BusinessSoftware #BillingSoftware",
+   "metadata": {
+    "instagram": {
+     "type": "post",
+     "shouldShareToFeed": true,
+     "isAiGenerated": false
+    }
+   }
+  },
+  {
+   "service": "facebook",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-12-04_Infographic_Excel_WhatsApp_vs_WebApp/Facebook_1200x1200.png"
+   ],
+   "remotePrefix": "ft-2026-12-04-infographic-excel-whatsapp-vs-webapp-fb",
+   "alt": [
+    "Excel plus WhatsApp versus web app: orders, payment, hisaab, customer jankari"
+   ],
+   "text": "अभी भी Excel और WhatsApp पर business manage कर रहे हैं? 🤔\n\n❌ Orders चैट में बिखरे\n❌ Payment याद नहीं रहता\n❌ हिसाब हाथ से\n\n✅ Web app में सारा record एक जगह, payment reminder, साफ़ stock और bill\n\nबात करने के लिए: https://wa.me/917974217411?text=Namaste%20(FB-P16)\n\n#WebApp #SmallBusinessIndia",
+   "metadata": {
+    "facebook": {
+     "type": "post"
+    }
+   }
+  },
+  {
+   "service": "googlebusiness",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-12-04_Infographic_Excel_WhatsApp_vs_WebApp/GBP_1200x900.png"
+   ],
+   "remotePrefix": "ft-2026-12-04-infographic-excel-whatsapp-vs-webapp-gbp",
+   "alt": [
+    "FutureTech infographic in Hindi: Excel aur WhatsApp ki jagah web app."
+   ],
+   "text": "Excel और WhatsApp पर business manage करने में orders बिखर जाते हैं और payment याद नहीं रहता। Web app में सारा record एक जगह रहता है, payment reminder और साफ़ stock व bill के साथ। Sagar (MP) की FutureTech Digital Marketing Agency custom web app बनाती है।",
+   "metadata": {
+    "google": {
+     "type": "whats_new",
+     "detailsWhatsNew": {
+      "button": "learn_more",
+      "link": "https://futuretechdigitalmarketingagency.com/?utm_source=gbp&utm_campaign=p16"
+     }
+    }
+   }
+  }
+ ]
+}

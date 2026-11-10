@@ -1,0 +1,59 @@
+{
+ "dueAt": "2026-12-10T08:30:00.000Z",
+ "posts": [
+  {
+   "service": "instagram",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-12-10_Infographic_WebApp_Modules/Instagram_1080x1350.png"
+   ],
+   "remotePrefix": "ft-2026-12-10-infographic-webapp-modules-ig",
+   "alt": [
+    "Web app mein kya-kya ho sakta hai: orders, customers, billing, payment reminder, stock, staff, reports, WhatsApp updates"
+   ],
+   "text": "Web app में क्या-क्या हो सकता है? 🧩 (save करें)\n\nExcel और WhatsApp की जगह एक जगह पूरा हिसाब:\n✅ Orders का record\n✅ Customer list\n✅ Bill / Invoice\n✅ Payment reminder\n✅ Stock की जानकारी\n✅ Staff और काम\n✅ Reports\n✅ WhatsApp updates\n\nआपकी ज़रूरत के हिसाब से modules चुने जाते हैं।\n\nअपने business के लिए web app की बात करनी है? WhatsApp करें 📲 79742 17411\n\n#SmallBusinessIndia #DigitalMarketingIndia #WebApp #BusinessSoftware #BillingSoftware",
+   "metadata": {
+    "instagram": {
+     "type": "post",
+     "shouldShareToFeed": true,
+     "isAiGenerated": false
+    }
+   }
+  },
+  {
+   "service": "facebook",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-12-10_Infographic_WebApp_Modules/Facebook_1200x1200.png"
+   ],
+   "remotePrefix": "ft-2026-12-10-infographic-webapp-modules-fb",
+   "alt": [
+    "Web app mein kya-kya ho sakta hai: orders, customers, billing, payment reminder, stock, staff, reports, WhatsApp updates"
+   ],
+   "text": "Web app में क्या-क्या हो सकता है? 🧩\n\n✅ Orders, Customer list\n✅ Bill / Invoice, Payment reminder\n✅ Stock, Staff, Reports\n✅ WhatsApp updates\n\nज़रूरत के हिसाब से modules। बात करने के लिए: https://wa.me/917974217411?text=Namaste%20(FB-P15)\n\n#WebApp #SmallBusinessIndia",
+   "metadata": {
+    "facebook": {
+     "type": "post"
+    }
+   }
+  },
+  {
+   "service": "googlebusiness",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-12-10_Infographic_WebApp_Modules/GBP_1200x900.png"
+   ],
+   "remotePrefix": "ft-2026-12-10-infographic-webapp-modules-gbp",
+   "alt": [
+    "FutureTech infographic in Hindi: web app mein kya-kya ho sakta hai."
+   ],
+   "text": "Web app में orders, customer list, bill या invoice, payment reminder, stock, staff और reports जैसे modules हो सकते हैं, जो आपकी ज़रूरत के हिसाब से चुने जाते हैं। Sagar (MP) की FutureTech Digital Marketing Agency custom web app और billing software बनाती है।",
+   "metadata": {
+    "google": {
+     "type": "whats_new",
+     "detailsWhatsNew": {
+      "button": "learn_more",
+      "link": "https://futuretechdigitalmarketingagency.com/?utm_source=gbp&utm_campaign=p15"
+     }
+    }
+   }
+  }
+ ]
+}
