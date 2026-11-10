@@ -1,0 +1,59 @@
+{
+ "dueAt": "2026-12-03T08:30:00.000Z",
+ "posts": [
+  {
+   "service": "instagram",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-12-03_Local_SEO_Kya_Hai/Instagram_1080x1350.png"
+   ],
+   "remotePrefix": "ft-2026-12-03-local-seo-kya-hai-ig",
+   "alt": [
+    "Local SEO kya hota hai: apne shehar ke logon ko Google aur Maps par dikhna"
+   ],
+   "text": "Local SEO क्या होता है? 🗺️\n\nअपने शहर / इलाके के लोगों को Google और Maps पर दिखना।\n\nकोई “tent house near me” या “salon near me” search करे, तो आपका business उस list में आ सके — यही Local SEO का मक़सद है।\n\nशुरुआत:\n✅ Google Business Profile पूरा भरें\n✅ नाम-पता-फ़ोन हर जगह एक जैसा\n✅ Reviews का शुक्रिया और जवाब\n\nमदद चाहिए? WhatsApp करें 📲 79742 17411 | Save करें\n\n#LocalSEO #DigitalMarketingIndia #SmallBusinessIndia #GoogleMaps #SEOBasics",
+   "metadata": {
+    "instagram": {
+     "type": "post",
+     "shouldShareToFeed": true,
+     "isAiGenerated": false
+    }
+   }
+  },
+  {
+   "service": "facebook",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-12-03_Local_SEO_Kya_Hai/Facebook_1200x1200.png"
+   ],
+   "remotePrefix": "ft-2026-12-03-local-seo-kya-hai-fb",
+   "alt": [
+    "Local SEO kya hota hai: apne shehar ke logon ko Google aur Maps par dikhna"
+   ],
+   "text": "Local SEO क्या होता है? 🗺️\n\nअपने इलाके के लोगों को Google और Maps पर दिखना।\n\n✅ Google Business Profile पूरा\n✅ नाम-पता-फ़ोन एक जैसा\n✅ Reviews का जवाब\n\nमदद चाहिए? https://wa.me/917974217411?text=Namaste%20(FB-P11)\n\n#LocalSEO #SmallBusinessIndia",
+   "metadata": {
+    "facebook": {
+     "type": "post"
+    }
+   }
+  },
+  {
+   "service": "googlebusiness",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-12-03_Local_SEO_Kya_Hai/GBP_1200x900.png"
+   ],
+   "remotePrefix": "ft-2026-12-03-local-seo-kya-hai-gbp",
+   "alt": [
+    "FutureTech graphic in Hindi: Local SEO kya hota hai."
+   ],
+   "text": "Local SEO यानी अपने शहर या इलाके के लोगों को Google और Maps पर दिखना। Google Business Profile पूरा भरें, नाम-पता-फ़ोन एक जैसा रखें और reviews का जवाब दें। FutureTech आपके business के लिए Local SEO में मदद करता है।",
+   "metadata": {
+    "google": {
+     "type": "whats_new",
+     "detailsWhatsNew": {
+      "button": "learn_more",
+      "link": "https://futuretechdigitalmarketingagency.com/?utm_source=gbp&utm_campaign=p11"
+     }
+    }
+   }
+  }
+ ]
+}

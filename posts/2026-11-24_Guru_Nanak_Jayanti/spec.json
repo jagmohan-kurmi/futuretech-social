@@ -1,0 +1,59 @@
+{
+ "dueAt": "2026-11-24T02:30:00.000Z",
+ "posts": [
+  {
+   "service": "instagram",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-24_Guru_Nanak_Jayanti/Instagram_1080x1350.png"
+   ],
+   "remotePrefix": "ft-2026-11-24-guru-nanak-jayanti-ig",
+   "alt": [
+    "Guru Nanak Jayanti aur Kartik Purnima ki shubhkamnayein, FutureTech parivar"
+   ],
+   "text": "गुरु नानक जयंती और कार्तिक पूर्णिमा की हार्दिक शुभकामनाएँ 🙏\n\nसबका भला हो, सबको सुख और शांति मिले।\n— FutureTech परिवार\n\n#GuruNanakJayanti #KartikPurnima #Gurpurab",
+   "metadata": {
+    "instagram": {
+     "type": "post",
+     "shouldShareToFeed": true,
+     "isAiGenerated": false
+    }
+   }
+  },
+  {
+   "service": "facebook",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-24_Guru_Nanak_Jayanti/Facebook_1200x1200.png"
+   ],
+   "remotePrefix": "ft-2026-11-24-guru-nanak-jayanti-fb",
+   "alt": [
+    "Guru Nanak Jayanti aur Kartik Purnima ki shubhkamnayein, FutureTech parivar"
+   ],
+   "text": "गुरु नानक जयंती और कार्तिक पूर्णिमा की हार्दिक शुभकामनाएँ 🙏\nसबका भला हो, सबको सुख और शांति मिले।\n— FutureTech परिवार https://wa.me/917974217411?text=Namaste%20(FB-G01)",
+   "metadata": {
+    "facebook": {
+     "type": "post"
+    }
+   }
+  },
+  {
+   "service": "googlebusiness",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-24_Guru_Nanak_Jayanti/GBP_1200x900.png"
+   ],
+   "remotePrefix": "ft-2026-11-24-guru-nanak-jayanti-gbp",
+   "alt": [
+    "FutureTech greeting: Guru Nanak Jayanti."
+   ],
+   "text": "गुरु नानक जयंती और कार्तिक पूर्णिमा की हार्दिक शुभकामनाएँ। सबका भला हो, सबको सुख और शांति मिले। — FutureTech Digital Marketing Agency परिवार",
+   "metadata": {
+    "google": {
+     "type": "whats_new",
+     "detailsWhatsNew": {
+      "button": "learn_more",
+      "link": "https://futuretechdigitalmarketingagency.com/?utm_source=gbp&utm_campaign=g01"
+     }
+    }
+   }
+  }
+ ]
+}

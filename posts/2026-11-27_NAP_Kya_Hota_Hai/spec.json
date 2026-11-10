@@ -1,0 +1,59 @@
+{
+ "dueAt": "2026-11-27T08:30:00.000Z",
+ "posts": [
+  {
+   "service": "instagram",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-27_NAP_Kya_Hota_Hai/Instagram_1080x1350.png"
+   ],
+   "remotePrefix": "ft-2026-11-27-nap-kya-hota-hai-ig",
+   "alt": [
+    "NAP kya hota hai: Name Address Phone har jagah ek jaisa"
+   ],
+   "text": "NAP क्या होता है? 📍\n\nName · Address · Phone — आपके business का नाम, पता और फ़ोन।\n\nGoogle Profile, website, Facebook और directories — सब जगह ये एक जैसे होने चाहिए। Spelling, short form और number अलग हों तो confusion होता है।\n\n✅ एक बार सही format तय करें\n✅ सब जगह वही copy करें\n\nमदद चाहिए? WhatsApp करें 📲 79742 17411 | Save करें\n\n#LocalSEO #DigitalMarketingIndia #SmallBusinessIndia #GoogleBusinessProfile #SEOBasics",
+   "metadata": {
+    "instagram": {
+     "type": "post",
+     "shouldShareToFeed": true,
+     "isAiGenerated": false
+    }
+   }
+  },
+  {
+   "service": "facebook",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-27_NAP_Kya_Hota_Hai/Facebook_1200x1200.png"
+   ],
+   "remotePrefix": "ft-2026-11-27-nap-kya-hota-hai-fb",
+   "alt": [
+    "NAP kya hota hai: Name Address Phone har jagah ek jaisa"
+   ],
+   "text": "NAP क्या होता है? 📍\n\nName · Address · Phone — नाम, पता, फ़ोन हर जगह एक जैसा।\n\n✅ Google Profile\n✅ Website\n✅ Facebook और directories\n\nमदद चाहिए? https://wa.me/917974217411?text=Namaste%20(FB-P10)\n\n#LocalSEO #SmallBusinessIndia",
+   "metadata": {
+    "facebook": {
+     "type": "post"
+    }
+   }
+  },
+  {
+   "service": "googlebusiness",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-27_NAP_Kya_Hota_Hai/GBP_1200x900.png"
+   ],
+   "remotePrefix": "ft-2026-11-27-nap-kya-hota-hai-gbp",
+   "alt": [
+    "FutureTech graphic in Hindi: NAP kya hota hai."
+   ],
+   "text": "NAP यानी Name, Address, Phone। आपके business का नाम, पता और फ़ोन Google Profile, website और बाक़ी जगहों पर एक जैसा होना चाहिए, ताकि लोगों और Google को सही जानकारी मिले। FutureTech इसे ठीक करने में मदद करता है।",
+   "metadata": {
+    "google": {
+     "type": "whats_new",
+     "detailsWhatsNew": {
+      "button": "learn_more",
+      "link": "https://futuretechdigitalmarketingagency.com/?utm_source=gbp&utm_campaign=p10"
+     }
+    }
+   }
+  }
+ ]
+}
