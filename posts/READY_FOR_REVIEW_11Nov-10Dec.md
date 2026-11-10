@@ -15,7 +15,7 @@ Contact sheets: `posts/_review_sheets/`.
 | 21 Nov | 7:00 PM | Reel 2: Website + Google + WhatsApp | 2026-11-21_Reel_Website_Google_WhatsApp | IG FB (video) | VIDEO BUILT (silent, Hindi subtitles); voice pending |
 | 24 Nov | 8:00 AM | Greeting: Guru Nanak Jayanti | 2026-11-24_Guru_Nanak_Jayanti | IG FB GBP | Draft |
 | 25 Nov | 2:00 PM | Story poll 2 | 2026-11-25_Story_Poll_2 | Story | Draft |
-| 26 Nov | 2:00 PM | Carousel: Gym plan (8, with 7-day content calendar) | 2026-11-26_Gym_Digital_Marketing_Plan | IG FB GBP | Draft |
+| 26 Nov | 2:00 PM | Carousel: Gym — roz post nahi, sahi plan (9 slides; weekly rhythm + calendar) | 2026-11-26_Gym_Digital_Marketing_Plan | IG FB GBP | Draft |
 | 27 Nov | 2:00 PM | Single: NAP | 2026-11-27_NAP_Kya_Hota_Hai | IG FB GBP | Draft |
 | 28 Nov | 7:00 PM | Reel 3: Gym Google Profile | 2026-11-28_Reel_Gym_Google_Profile | IG FB (video) | VIDEO BUILT (silent, Hindi subtitles); voice pending |
 | 1 Dec | 2:00 PM | Carousel: Coaching/College (9, with parents' FAQ slide) | 2026-12-01_Coaching_College_Admission_Plan | IG FB GBP | Draft |

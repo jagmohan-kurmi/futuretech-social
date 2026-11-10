@@ -49,37 +49,39 @@ Website की planning के लिए: ${wa('FB-C05')}
 
 const gym = {
   id: 'gym-plan', kind: 'carousel', date: '2026-11-26', time: '14:00', slug: 'Gym_Digital_Marketing_Plan', lead: 'C06', utm: 'c06', series: 'GYM & FITNESS',
-  title: 'CAROUSEL — Gym ke liye digital marketing plan (8 slides)', gbpH: 'Gym के लिए <span class="mk">digital marketing</span> plan',
+  title: 'CAROUSEL — Gym: roz post nahi, sahi plan (9 slides)', gbpH: 'रोज़ post करते हैं, फिर भी <span class="mk">enquiry</span> नहीं?',
   slides: [
-    { aud: 'Gym & Fitness Studio के लिए', h: 'Gym के लिए <span class="mk">digital marketing</span> plan', sub: 'Membership enquiry बढ़ाने का सरल तरीका — step by step', art: A.hub(A.hubCenter('phone'), [{ icon: 'pin', l: 'Google पर', l2: 'gym दिखे' }, { icon: 'wa', l: 'WhatsApp', l2: 'trial slot' }, { icon: 'video', l: 'Reels और', l2: 'photos' }, { icon: 'repeat', l: 'Follow-up', l2: 'renewal' }]), raw: true, fix: ['30 दिन', 'का सीधा plan'] },
-    { h: 'Goal: Likes नहीं, <span class="blue">enquiry</span>', sub: 'पहले तय करें कि आपको क्या चाहिए — trial और membership के लिए आने वाले लोग।', art: A.checklist([{ icon: 'target', t: 'Goal: Membership enquiry', s: 'सिर्फ़ followers नहीं' }, { icon: 'cal', t: 'Trial slot', s: 'आने वाले को समय दें' }, { icon: 'users', t: 'Membership', s: 'फिर renewal' }]) },
-    { h: 'Gym का <span class="blue">Google Profile</span> पूरा भरें', sub: 'Timing, trainers, equipment की असली photos और Maps location।', art: A.phoneSide(A.kp('Aapka Gym', 'Gym · Open', [['pin', 'Main Road, आपका शहर'], ['clock', 'सुबह 5 – रात 10']]), [{ icon: 'pin', t: 'सही location' }, { icon: 'clock', t: 'Timing अपडेट' }, { icon: 'img', t: 'असली photos' }]) },
-        { h: 'Instagram का <span class="blue">7 दिन</span> का content', sub: 'हफ़्ते का सरल ढाँचा — बस इसे दोहराते रहिए।', art: A.week([['सोम', 'Trainer का 30 sec tip'], ['मंगल', 'Equipment / gym tour'], ['बुध', 'Batch और class timing'], ['गुरु', 'Fitness myth vs fact'], ['शुक्र', 'Member story (लिखित permission से)'], ['शनि', 'सवाल-जवाब / poll'], ['रवि', 'आराम + comments के जवाब']]) },
+    { aud: 'Gym & Fitness Studio के लिए', h: 'रोज़ post करते हैं, फिर भी <span class="mk">enquiry</span> नहीं?', sub: 'हर रोज़ post ज़रूरी नहीं — सही plan ज़रूरी है', art: A.hub(A.hubCenter('dumbbell'), [{ icon: 'pin', l: 'Google पर', l2: 'gym दिखे' }, { icon: 'wa', l: 'WhatsApp', l2: 'trial slot' }, { icon: 'video', l: 'हफ़्ते का', l2: 'rhythm' }, { icon: 'repeat', l: 'Follow-up', l2: 'renewal' }]), raw: true, fix: ['30 दिन', 'का सीधा plan'] },
+    { h: 'Likes से <span class="blue">membership</span> नहीं मिलती', sub: 'Gym की असली जीत: trial और membership के लिए आने वाले लोग।', art: A.cards([{ icon: 'heart', t: 'Likes' }, { icon: 'chat', t: 'Enquiry' }, { icon: 'cal', t: 'Trial' }, { icon: 'users', t: 'Member' }]), fix: ['लक्ष्य', 'Followers नहीं — trial और membership'] },
+    { h: 'Gym का <span class="blue">Google Profile</span> पूरा भरें', sub: 'लोग “gym near me” search करके सबसे पहले यहीं देखते हैं।', art: A.phoneSide(A.kp('Aapka Gym', 'Gym · Open', [['pin', 'Main Road, आपका शहर'], ['clock', 'सुबह 5 – रात 10']]), [{ icon: 'pin', t: 'सही location' }, { icon: 'clock', t: 'Timing अपडेट' }, { icon: 'img', t: 'असली photos' }]) },
+    { h: 'हफ़्ते का <span class="blue">सही rhythm</span>', sub: 'रोज़ feed post ज़रूरी नहीं — जो निभा सकें, वही plan रखें।', art: A.week([['3–4', 'Feed posts: tip, tour, timing, myth vs fact'], ['रोज़', 'Stories: आज का batch, छोटा tip, poll'], ['1–2', 'Reels: 20–30 sec के tips'], ['1', 'Google Profile post']]), fix: ['सुझाव', 'लगातार रहना, रोज़ भरना नहीं'] },
+    { h: 'हफ़्ते का <span class="blue">content calendar</span>', sub: 'चार दिन feed, रोज़ Stories — बस इसे दोहराइए।', art: A.week([['सोम', 'Trainer का 30 sec tip (Reel)'], ['बुध', 'Equipment tour / असली photos'], ['शुक्र', 'Myth vs Fact + batch timing'], ['रवि', 'Member story (लिखित permission से) / poll'], ['रोज़', 'Stories: आज का batch, छोटा tip']]) },
     { h: 'Enquiry से <span class="blue">trial</span> तक, WhatsApp पर', sub: 'Quick reply से timing, facilities और trial slot बताएँ।', art: A.phoneSide(A.chat([['in', 'Gym timing aur membership ke baare mein batayein'], ['out', 'Namaste! Timing aur facilities bhej rahe hain. Trial ke liye slot batayein'], ['in', 'Kal shaam ka slot?']]), [{ icon: 'bolt', t: 'Quick reply' }, { icon: 'cal', t: 'Trial slot' }, { icon: 'repeat', t: 'Follow-up' }]) },
-    { h: 'Local <span class="blue">ads</span> छोटे से शुरू करें', sub: 'आस-पास के लोग, एक message और एक WhatsApp button।', art: A.cards([{ icon: 'target', t: 'Location + उम्र', s: 'आस-पास के लोग' }, { icon: 'mega', t: 'Ad', s: 'एक साफ़ message' }, { icon: 'wa', t: 'WhatsApp', s: 'trial की बात' }]), fix: ['ध्यान', 'Body shaming या “guaranteed result” वाली बात नहीं'] },
-    { h: '<span class="mk">30 दिन</span> का plan', sub: '', art: A.timeline([{ h: 'हफ़्ता 1', items: ['Google Profile पूरा', 'असली photos'] }, { h: 'हफ़्ता 2-3', items: ['Instagram content', 'WhatsApp quick reply', 'छोटा ad test'] }, { h: 'हफ़्ता 4', items: ['Follow-up', 'Renewal reminder', 'Review और सुधार'] }]) },
+    { h: 'Local <span class="blue">ads</span> छोटे से शुरू करें', sub: 'आस-पास के लोग, एक साफ़ message और एक WhatsApp button।', art: A.cards([{ icon: 'target', t: 'Location + उम्र', s: 'आस-पास के लोग' }, { icon: 'mega', t: 'Ad', s: 'एक साफ़ message' }, { icon: 'wa', t: 'WhatsApp', s: 'trial की बात' }]), fix: ['ध्यान', 'Body shaming या “guaranteed result” वाली बात नहीं'] },
+    { h: '<span class="mk">30 दिन</span> का plan', sub: '', art: A.timeline([{ h: 'हफ़्ता 1', items: ['Google Profile पूरा', 'असली photos'] }, { h: 'हफ़्ता 2', items: ['WhatsApp quick reply', 'हफ़्ते का rhythm शुरू'] }, { h: 'हफ़्ता 3', items: ['छोटा ad test', 'Trial slot booking'] }, { h: 'हफ़्ता 4', items: ['Follow-up + renewal', 'Review और सुधार'] }]) },
     { cta: true, h: 'अपने gym का plan <span class="blue">बनवाना है?</span>', recap: [{ icon: 'pin', t: 'Google Profile पूरा', s: 'timing, photos, location' }, { icon: 'wa', t: 'WhatsApp पर trial booking', s: 'quick reply तैयार' }, { icon: 'repeat', t: 'Follow-up + renewal', s: 'enquiry छूटे नहीं' }], line: 'अपने gym का 30-दिन का plan बनवाना है? WhatsApp करें।', share: 'Gym वाले दोस्त को भेजें' },
   ],
-  ig: `Gym में enquiry बढ़ानी है? सिर्फ़ likes से नहीं होगा 💪
+  ig: `रोज़ post करते हैं, फिर भी gym में enquiry नहीं आती? 💪 रोज़ post ज़रूरी नहीं — सही plan ज़रूरी है।
 
 Gym के लिए 30 दिन का सीधा plan:
 1️⃣ Google Profile पूरा — timing, असली photos, location
-2️⃣ Instagram का 7 दिन का content calendar (tip, tour, timing, myth vs fact)
+2️⃣ हफ़्ते का rhythm: 3–4 feed posts + रोज़ Stories + 1–2 Reels
 3️⃣ WhatsApp पर trial slot booking (quick reply)
 4️⃣ आस-पास के लोगों के लिए छोटा ad test
 5️⃣ Follow-up और renewal reminder
 
-Member की photo/story सिर्फ़ लिखित permission से।
+Member की photo/story सिर्फ़ लिखित permission से। कोई “guaranteed result” वाला दावा नहीं।
 
 अपने gym का plan बनवाना है? WhatsApp करें 📲 79742 17411
 
 Save करें, और gym वाले दोस्त को भेजिए।
 
 #SmallBusinessIndia #DigitalMarketingIndia #GymMarketing #LocalSEO #FitnessBusiness`,
-  fb: `Gym के लिए digital marketing plan 💪 (swipe करें)
+  fb: `रोज़ post करते हैं, फिर भी gym में enquiry नहीं? 💪 (swipe करें)
 
+रोज़ post ज़रूरी नहीं — सही plan ज़रूरी है:
 ✅ Google Profile पूरा
-✅ Instagram पर trainer tips
+✅ हफ़्ते का rhythm: 3–4 posts + रोज़ Stories
 ✅ WhatsApp पर trial booking
 ✅ छोटा local ad test
 ✅ Follow-up और renewal
@@ -87,9 +89,9 @@ Save करें, और gym वाले दोस्त को भेजि�
 अपने gym का plan बनवाने के लिए: ${wa('FB-C06')}
 
 #SmallBusinessIndia #GymMarketing`,
-  gbp: 'Gym के लिए digital marketing plan: Google Business Profile में timing और असली photos, WhatsApp पर trial slot booking, छोटा local ad test और renewal reminder। Sagar (MP) की FutureTech Digital Marketing Agency gym और fitness studio के लिए 30 दिन का plan बनाने में मदद करती है।',
-  altTopics: ['Gym digital marketing plan', 'Goal enquiry, likes nahi', 'Gym ka Google Profile', 'Instagram ka 7 din ka content', 'WhatsApp par trial booking', 'Local ads chhote se shuru', '30 din ka plan', 'WhatsApp 79742 17411'],
-  altGbp: 'FutureTech graphic in Hindi: gym ke liye digital marketing plan.',
+  gbp: 'Gym में enquiry बढ़ाने के लिए रोज़ post करना ज़रूरी नहीं। Google Business Profile में timing और असली photos रखें, हफ़्ते का एक सरल content rhythm बनाएँ, WhatsApp पर trial slot दें और renewal की याद दिलाएँ। Sagar (MP) की FutureTech Digital Marketing Agency gym और fitness studio के लिए 30 दिन का plan बनाने में मदद करती है।',
+  altTopics: ['रोज़ post karte hain phir bhi enquiry nahi: gym plan cover', 'Likes se membership nahi milti', 'Gym ka Google Profile', 'Hafte ka sahi rhythm', 'Hafte ka content calendar', 'WhatsApp par trial booking', 'Local ads chhote se shuru', '30 din ka plan', 'WhatsApp 79742 17411'],
+  altGbp: 'FutureTech graphic in Hindi: gym mein roz post nahi, sahi plan zaroori.',
 };
 
 const coaching = {
