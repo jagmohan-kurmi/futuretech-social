@@ -14,7 +14,8 @@ const remote = (p, f, i) => `${p.remotePrefix}-${String(i + 1).padStart(2, '0')}
     return;
   }
   if (mode === 'schedule') {
-    const KEY = env('BUFFER_API_KEY');
+    // spec.account = "personal" -> second Buffer account (BUFFER_API_KEY_PERSONAL); default = agency account
+    const KEY = env(spec.account === 'personal' ? 'BUFFER_API_KEY_PERSONAL' : 'BUFFER_API_KEY');
     const gql = async (query, variables = {}) => { const j = await (await fetch('https://api.buffer.com', { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + KEY }, body: JSON.stringify({ query, variables }) })).json(); if (j.errors) throw new Error(JSON.stringify(j.errors)); return j.data; };
     const org = (await gql('query { account { organizations { id } } }')).account.organizations[0];
     const chans = (await gql('query($o:OrganizationId!){ channels(input:{organizationId:$o}){ id service displayName } }', { o: org.id })).channels;
