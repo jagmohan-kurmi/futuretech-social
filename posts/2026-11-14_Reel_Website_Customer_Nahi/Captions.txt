@@ -2,14 +2,14 @@ REEL 1 — Website hai par customer nahi: 3 wajah (30s)
 Date: 2026-11-14 19:00 IST | Lead code: - | Status: DRAFT (pending founder OK)
 
 ==================================================
-REEL SCRIPT (9:16, 30 sec) — video not produced yet
+REEL (9:16, approx 30-37 sec) — video BUILT (text-timed, Hindi subtitles); VOICEOVER LINES below (one per scene)
 --------------------------------------------------
-0-2s HOOK on screen + VO: "Website है, पर customer नहीं आ रहे?"
-2-8s Wajah 1 — scene: search bar "kirana near me", aapki site list mein nahi. VO: "Pehli wajah: Google par aap dikhte hi nahi."
-8-14s Wajah 2 — scene: phone par site, WhatsApp button nahi. VO: "Doosri: enquiry ka raasta nahi. WhatsApp ya call ka button rakhein."
-14-20s Wajah 3 — scene: khali about page -> asli address, photos, timing bharte hue. VO: "Teesri: bharosa dilane wali jaankari kam hai."
-20-26s Fix — Google Profile + saaf page + WhatsApp button (3 icons). VO: "In teeno ko theek karein."
-26-30s End card: logo + WhatsApp 79742 17411 + website. Hindi subtitles bottom-safe (top 250px / bottom 340px clear).
+1. Website है, पर customer नहीं आ रहे? तीन बड़ी वजह देखिए।
+2. पहली वजह: Google पर आप दिखते ही नहीं।
+3. दूसरी वजह: enquiry का रास्ता नहीं। WhatsApp या call का button रखिए।
+4. तीसरी वजह: भरोसे की जानकारी कम है। असली पता, timing और photos डालिए।
+5. इन तीनों को ठीक कीजिए, तो website आपके लिए बेहतर काम कर सकती है।
+6. अपनी website जँचवानी है? FutureTech को WhatsApp कीजिए।  [END CARD: logo + WhatsApp 79742 17411 + QR]
 
 CAPTION (IG/FB): Website है, पर customer नहीं आ रहे? 3 बड़ी वजह देखिए 👇 WhatsApp करें 📲 79742 17411 #SmallBusinessIndia #DigitalMarketingIndia #LocalSEO
 NOTE: AI voice => Instagram isAiGenerated true + Facebook AI label manually. Founder voice/face = no label needed.

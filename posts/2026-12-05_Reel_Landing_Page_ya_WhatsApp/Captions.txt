@@ -2,13 +2,13 @@ REEL 4 — Landing page ya WhatsApp? (30s)
 Date: 2026-12-05 19:00 IST | Lead code: - | Status: DRAFT (pending founder OK)
 
 ==================================================
-REEL SCRIPT (9:16, 30 sec) — video not produced yet
+REEL (9:16, approx 30-37 sec) — video BUILT (text-timed, Hindi subtitles); VOICEOVER LINES below (one per scene)
 --------------------------------------------------
-0-2s HOOK: "Ad के बाद customer को कहाँ भेजें?"
-2-12s Landing page: naya customer ko pehle saaf jaankari chahiye, phir WhatsApp button.
-12-22s Seedha WhatsApp: jo customer pehle se jaanta hai, usse seedhi baat.
-22-26s Rule of thumb: aam taur par naye logon ko page, purane logon ko WhatsApp. (judgement, not a statistic)
-26-30s End card: WhatsApp 79742 17411.
+1. Ad के बाद customer को कहाँ भेजें?
+2. नया customer पहले जानकारी चाहता है। उसे landing page पर भेजिए, जहाँ WhatsApp button हो।
+3. जो आपको पहले से जानता है, उसे सीधे WhatsApp पर बात कराइए।
+4. यह एक सामान्य नियम है। अपने customer के हिसाब से चुनिए।
+5. Ads का सही plan चाहिए? FutureTech को WhatsApp कीजिए।  [END CARD: logo + WhatsApp 79742 17411 + QR]
 
 CAPTION (IG/FB): Ad के बाद customer को कहाँ भेजें? Landing page या WhatsApp 📲 79742 17411 #DigitalMarketingIndia #SmallBusinessIndia #LeadGeneration
 NOTE: AI voice => Instagram isAiGenerated true + Facebook AI label manually. Founder voice/face = no label needed.

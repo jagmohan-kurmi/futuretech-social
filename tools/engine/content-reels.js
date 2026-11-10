@@ -7,7 +7,7 @@ module.exports = {
     { line: 'पहली वजह: Google पर आप दिखते ही नहीं।', slide: { chip: 'वजह 1', h: 'Google पर <span class="blue">दिखते नहीं</span>', art: A.serp('kirana store near me', [{ u: 'dusri-dukaan.in', t: 'Dusri Dukaan – Kirana Store', p: 'दूसरी दुकान सबसे ऊपर।' }, { u: 'teesri-dukaan.in', t: 'Teesri Dukaan', p: '…' }]) } },
     { line: 'दूसरी वजह: enquiry का रास्ता नहीं। WhatsApp या call का button रखिए।', slide: { chip: 'वजह 2', h: 'Enquiry का <span class="blue">रास्ता</span> नहीं', art: A.phoneSide(A.site('Aapki Kirana Store', 'Saman · Contact'), [{ icon: 'call', t: 'Call button' }, { icon: 'wa', t: 'WhatsApp button' }, { icon: 'pin', t: 'Directions' }]) } },
     { line: 'तीसरी वजह: भरोसे की जानकारी कम है। असली पता, timing और photos डालिए।', slide: { chip: 'वजह 3', h: 'भरोसे की <span class="blue">जानकारी</span> कम', art: A.checklist([{ icon: 'pin', t: 'असली पता और map' }, { icon: 'clock', t: 'Timing और छुट्टी' }, { icon: 'img', t: 'असली photos' }]) } },
-    { line: 'इन तीनों को ठीक कीजिए, फिर website आपके लिए काम करना शुरू करती है।', slide: { chip: 'हल', h: 'ये <span class="blue">तीन</span> ठीक करें', art: A.cards([{ icon: 'search', t: 'Google पर' }, { icon: 'wa', t: 'WhatsApp' }, { icon: 'shield', t: 'भरोसा' }], false) } },
+    { line: 'इन तीनों को ठीक कीजिए, तो website आपके लिए बेहतर काम कर सकती है।', slide: { chip: 'हल', h: 'ये <span class="blue">तीन</span> ठीक करें', art: A.cards([{ icon: 'search', t: 'Google पर' }, { icon: 'wa', t: 'WhatsApp' }, { icon: 'shield', t: 'भरोसा' }], false) } },
     { line: 'अपनी website जँचवानी है? FutureTech को WhatsApp कीजिए।', end: true },
   ] },
   'reel-2': { code: 'IG-R02', file: 'Reel_Website_Google_WhatsApp', scenes: [

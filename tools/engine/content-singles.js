@@ -193,7 +193,7 @@ const greet = { id: 'greet-gurunanak', kind: 'greeting', date: '2026-11-24', tim
 
 const polls = [
   poll(1, '2026-11-18', 'आपके business की <span class="blue">website</span> है?', 'Haan / Nahi'),
-  poll(2, '2026-11-25', 'क्या आप अपनी business के लिए <span class="blue">ads</span> चलाते हैं?', 'Haan / Nahi'),
+  poll(2, '2026-11-25', 'क्या आप अपने business के लिए <span class="blue">ads</span> चलाते हैं?', 'Haan / Nahi'),
   poll(3, '2026-12-02', 'Enquiry का जवाब कितनी <span class="blue">जल्दी</span> देते हैं?', 'Turant / Der se'),
   poll(4, '2026-12-09', 'क्या आपने अपनी दुकान <span class="blue">Google</span> पर search की है?', 'Haan / Nahi'),
 ];

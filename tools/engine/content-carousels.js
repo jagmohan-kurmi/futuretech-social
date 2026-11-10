@@ -7,7 +7,7 @@ const website = {
   id: 'website-why', kind: 'carousel', date: '2026-11-17', time: '14:00', slug: 'Website_Kyu_Zaruri', lead: 'C05', utm: 'c05', series: 'WEBSITE SERIES',
   title: 'CAROUSEL — Website kyu zaruri hai (8 slides)', gbpH: 'Website <span class="mk">क्यों ज़रूरी</span> है?',
   slides: [
-    { aud: 'हर business के लिए', h: 'Website <span class="mk">क्यों ज़रूरी</span> है?', sub: 'Social media किराये का घर है, website आपकी अपनी दुकान', art: A.hub(A.hubCenter('browser'), [{ icon: 'search', l: 'Google पर', l2: 'दिखें' }, { icon: 'wa', l: 'WhatsApp', l2: 'enquiry' }, { icon: 'shield', l: 'भरोसा', l2: 'बने' }, { icon: 'clock', l: 'हर समय', l2: 'खुली' }]), raw: true, fix: ['5 कारण', 'जो हर small business को पता होने चाहिए'] },
+    { aud: 'हर business के लिए', h: 'Website <span class="mk">क्यों ज़रूरी</span> है?', sub: 'Social media किराये का घर है, website आपकी अपनी दुकान', art: A.hub(A.hubCenter('browser'), [{ icon: 'search', l: 'Google पर', l2: 'दिखें' }, { icon: 'wa', l: 'WhatsApp', l2: 'enquiry' }, { icon: 'shield', l: 'भरोसा', l2: 'बने' }, { icon: 'clock', l: 'हर समय', l2: 'खुली' }]), raw: true, fix: ['6 कारण', 'जो हर small business को पता होने चाहिए'] },
     { h: 'Customer पहले <span class="blue">Google</span> पर देखता है', sub: 'कई लोग कहीं जाने या कुछ ख़रीदने से पहले phone पर search करते हैं।', art: A.serp('kirana store near me', [{ u: 'aapkikirana.in', t: 'Aapki Kirana Store – Saman, Timing, Contact', p: 'सही जानकारी, address और WhatsApp — एक जगह।' }, { u: 'dusri-dukaan.in', t: 'Dusri Dukaan', p: '…' }]), fix: ['सोचें', 'Search में आप दिखते हैं, या सिर्फ़ दूसरे?'] },
     { h: 'Social media किराये का घर, <span class="blue">website अपना घर</span>', sub: 'Platform के rules और reach बदल सकते हैं। Website आपके control में है।', art: A.compare({ h: 'सिर्फ़ Social media', rows: ['Rules platform तय करता है', 'पुरानी post जल्दी दब जाती है', 'जानकारी बिखरी रहती है'] }, { h: 'Website भी हो', rows: ['आपके control में', 'सारी जानकारी एक जगह', 'Google से भी लोग पहुँच सकते हैं'] }) },
     { h: 'Website से <span class="blue">भरोसा</span> बनता है', sub: 'असली पता, timing, काम के नमूने और contact — एक जगह।', art: A.checklist([{ icon: 'pin', t: 'असली पता और map' }, { icon: 'clock', t: 'Timing और छुट्टी' }, { icon: 'img', t: 'काम की असली photos' }, { icon: 'chat', t: 'Contact का आसान तरीका' }]) },
@@ -19,12 +19,13 @@ const website = {
   ],
   ig: `Social media किराये का घर है, website आपका अपना घर 🏠
 
-Website क्यों ज़रूरी है — 5 वजह (और आख़िर में 5 मिनट का self-check):
+Website क्यों ज़रूरी है — 6 वजह (और आख़िर में 5 मिनट का self-check):
 1️⃣ Customer पहले Google पर देखता है
 2️⃣ Platform के rules बदल सकते हैं, website आपके control में है
 3️⃣ असली पता, timing, photos से भरोसा बनता है
 4️⃣ हर page पर WhatsApp / Call का रास्ता
-5️⃣ Ads और social post का सही ठिकाना
+5️⃣ Website से Google को आपके बारे में समझने में मदद मिलती है
+6️⃣ Ads और social post का सही ठिकाना
 
 Website की planning के लिए WhatsApp करें 📲 79742 17411
 
@@ -37,6 +38,7 @@ Save करें, और जो दोस्त business चलाता है
 ✅ Website आपके control में है
 ✅ असली जानकारी से भरोसा
 ✅ WhatsApp / Call एक tap पर
+✅ Google को समझने में मदद
 ✅ Ads और social का ठिकाना
 
 Website की planning के लिए: ${wa('FB-C05')}
@@ -53,7 +55,7 @@ const gym = {
   slides: [
     { aud: 'Gym & Fitness Studio के लिए', h: 'रोज़ post करते हैं, फिर भी <span class="mk">enquiry</span> नहीं?', sub: 'हर रोज़ post ज़रूरी नहीं — सही plan ज़रूरी है', art: A.hub(A.hubCenter('dumbbell'), [{ icon: 'pin', l: 'Google पर', l2: 'gym दिखे' }, { icon: 'wa', l: 'WhatsApp', l2: 'trial slot' }, { icon: 'video', l: 'हफ़्ते का', l2: 'rhythm' }, { icon: 'repeat', l: 'Follow-up', l2: 'renewal' }]), raw: true, fix: ['30 दिन', 'का सीधा plan'] },
     { h: 'Likes से <span class="blue">membership</span> नहीं मिलती', sub: 'Gym की असली जीत: trial और membership के लिए आने वाले लोग।', art: A.cards([{ icon: 'heart', t: 'Likes' }, { icon: 'chat', t: 'Enquiry' }, { icon: 'cal', t: 'Trial' }, { icon: 'users', t: 'Member' }]), fix: ['लक्ष्य', 'Followers नहीं — trial और membership'] },
-    { h: 'Gym का <span class="blue">Google Profile</span> पूरा भरें', sub: 'लोग “gym near me” search करके सबसे पहले यहीं देखते हैं।', art: A.phoneSide(A.kp('Aapka Gym', 'Gym · Open', [['pin', 'Main Road, आपका शहर'], ['clock', 'सुबह 5 – रात 10']]), [{ icon: 'pin', t: 'सही location' }, { icon: 'clock', t: 'Timing अपडेट' }, { icon: 'img', t: 'असली photos' }]) },
+    { h: 'Gym का <span class="blue">Google Profile</span> पूरा भरें', sub: '“gym near me” search में आपका profile यहीं से दिखता है।', art: A.phoneSide(A.kp('Aapka Gym', 'Gym · Open', [['pin', 'Main Road, आपका शहर'], ['clock', 'सुबह 5 – रात 10']]), [{ icon: 'pin', t: 'सही location' }, { icon: 'clock', t: 'Timing अपडेट' }, { icon: 'img', t: 'असली photos' }]) },
     { h: 'हफ़्ते का <span class="blue">सही rhythm</span>', sub: 'रोज़ feed post ज़रूरी नहीं — जो निभा सकें, वही plan रखें।', art: A.week([['3–4', 'Feed posts: tip, tour, timing, myth vs fact'], ['रोज़', 'Stories: आज का batch, छोटा tip, poll'], ['1–2', 'Reels: 20–30 sec के tips'], ['1', 'Google Profile post']]), fix: ['सुझाव', 'लगातार रहना, रोज़ भरना नहीं'] },
     { h: 'हफ़्ते का <span class="blue">content calendar</span>', sub: 'चार दिन feed, रोज़ Stories — बस इसे दोहराइए।', art: A.week([['सोम', 'Trainer का 30 sec tip (Reel)'], ['बुध', 'Equipment tour / असली photos'], ['शुक्र', 'Myth vs Fact + batch timing'], ['रवि', 'Member story (लिखित permission से) / poll'], ['रोज़', 'Stories: आज का batch, छोटा tip']]) },
     { h: 'Enquiry से <span class="blue">trial</span> तक, WhatsApp पर', sub: 'Quick reply से timing, facilities और trial slot बताएँ।', art: A.phoneSide(A.chat([['in', 'Gym timing aur membership ke baare mein batayein'], ['out', 'Namaste! Timing aur facilities bhej rahe hain. Trial ke liye slot batayein'], ['in', 'Kal shaam ka slot?']]), [{ icon: 'bolt', t: 'Quick reply' }, { icon: 'cal', t: 'Trial slot' }, { icon: 'repeat', t: 'Follow-up' }]) },
@@ -144,7 +146,7 @@ const clinic = {
   slides: [
     { aud: 'Clinic & Doctor के लिए', h: 'Clinic की <span class="mk">online presence</span> कैसे बनाएँ', sub: 'Patient को सही जानकारी और appointment का आसान रास्ता', art: A.hub(A.hubCenter('pin'), [{ icon: 'pin', l: 'Google Maps', l2: 'पर clinic' }, { icon: 'clock', l: 'सही', l2: 'timing' }, { icon: 'cal', l: 'Appointment', l2: 'आसान' }, { icon: 'shield', l: 'भरोसेमंद', l2: 'जानकारी' }]), raw: true, fix: ['नियम', 'के अंदर, सही और साफ़ जानकारी'] },
     { h: 'Patient सबसे पहले <span class="blue">क्या</span> खोजता है', sub: 'इलाज का दावा नहीं — सही और साफ़ जानकारी।', art: A.checklist([{ icon: 'pin', t: 'Clinic कहाँ है' }, { icon: 'clock', t: 'Timing और छुट्टी' }, { icon: 'steth', t: 'Doctor की असली qualification' }, { icon: 'phone', t: 'Appointment कैसे लें' }]) },
-    { h: 'Clinic का <span class="blue">Google Profile</span> ठीक रखें', sub: 'Address, timing और असली photos अपडेट रखें।', art: A.phoneSide(A.kp('Aapka Clinic', 'Clinic · Open', [['pin', 'Main Road, आपका शहर'], ['clock', 'सुबह 10 – शाम 7']]), [{ icon: 'pin', t: 'सही address / map' }, { icon: 'clock', t: 'Timing अपडेट' }, { icon: 'img', t: 'Clinic की असली photos' }]) },
+    { h: 'Maps पर patient को <span class="blue">क्या दिखे</span>', sub: 'Address, timing और असली photos अपडेट रखें।', art: A.phoneSide(A.kp('Aapka Clinic', 'Clinic · Open', [['pin', 'Main Road, आपका शहर'], ['clock', 'सुबह 10 – शाम 7']]), [{ icon: 'pin', t: 'सही address / map' }, { icon: 'clock', t: 'Timing अपडेट' }, { icon: 'img', t: 'Clinic की असली photos' }]) },
     { h: 'अपने clinic का <span class="blue">Google Profile</span> जाँचें', sub: 'हर एक पर ✓ लगाइए।', art: A.scorecard(['नाम सिर्फ़ असली clinic का नाम', 'Address और map pin सही', 'Timing और छुट्टी की जानकारी', 'Clinic की असली photos', 'Appointment का तरीका लिखा है']) },
     { h: 'Website पर <span class="blue">क्या</span> हो', sub: 'सरल, साफ़ और भरोसेमंद।', art: A.checklist([{ icon: 'doc', t: 'Services की जानकारी' }, { icon: 'users', t: 'Doctor का परिचय' }, { icon: 'cal', t: 'Appointment button' }, { icon: 'shield', t: 'Privacy policy' }]) },
     { h: 'WhatsApp पर <span class="blue">appointment</span>', sub: 'Slot बताएँ, reminder भेजें। Personal जानकारी उतनी ही माँगें जितनी ज़रूरी हो।', art: A.phoneSide(A.chat([['in', 'Appointment ke liye kal ka time?'], ['out', 'Namaste! Kal subah ka slot khaali hai. Naam aur number bhejein'], ['in', '11 baje ka slot']]), [{ icon: 'cal', t: 'Slot बताएँ' }, { icon: 'bell', t: 'Reminder' }, { icon: 'shield', t: 'Privacy का ध्यान' }]) },

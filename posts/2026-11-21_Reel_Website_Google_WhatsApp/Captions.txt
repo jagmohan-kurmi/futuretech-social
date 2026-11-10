@@ -2,14 +2,14 @@ REEL 2 — Website + Google + WhatsApp (30s, founder voice preferred)
 Date: 2026-11-21 19:00 IST | Lead code: - | Status: DRAFT (pending founder OK)
 
 ==================================================
-REEL SCRIPT (9:16, 30 sec) — video not produced yet
+REEL (9:16, approx 30-37 sec) — video BUILT (text-timed, Hindi subtitles); VOICEOVER LINES below (one per scene)
 --------------------------------------------------
-0-2s HOOK: "Customer तक पहुँचने के 3 कदम"
-2-9s Step 1 Website: "Website आपका पता है."
-9-16s Step 2 Google: "Google Profile से लोग आपको खोज सकते हैं."
-16-23s Step 3 WhatsApp: "WhatsApp से बात शुरू होती है."
-23-30s Recap + end card: WhatsApp 79742 17411.
-Best: founder speaks to camera (real face, no AI label). If AI voice used: Instagram isAiGenerated true.
+1. Customer तक पहुँचने के तीन कदम।
+2. पहला कदम: Website। आपका पता, जहाँ पूरी जानकारी हो।
+3. दूसरा कदम: Google Profile। जहाँ से लोग आपको खोज सकें।
+4. तीसरा कदम: WhatsApp। जहाँ बातचीत शुरू होती है।
+5. तीनों जुड़े हों, तो customer का रास्ता आसान हो जाता है।
+6. अपना रास्ता बनवाना है? FutureTech को WhatsApp कीजिए।  [END CARD: logo + WhatsApp 79742 17411 + QR]
 
 CAPTION (IG/FB): Customer तक पहुँचने के 3 कदम: Website, Google, WhatsApp 📲 79742 17411 #SmallBusinessIndia #DigitalMarketingIndia #LocalSEO
 NOTE: AI voice => Instagram isAiGenerated true + Facebook AI label manually. Founder voice/face = no label needed.

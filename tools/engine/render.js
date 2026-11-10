@@ -4,6 +4,7 @@ const fs = require('fs'); const path = require('path');
 const L = require('./lib');
 const { F, pageHTML, slide, ctaSlide, A, renderPages, ROOT } = L;
 const POSTS = [...require('./content-carousels'), ...require('./content-singles')];
+const REELS = require('./content-reels');
 const only = process.argv.slice(2);
 const wa = code => `https://wa.me/917974217411?text=Namaste%20(${code})`;
 const utm = (n) => `https://futuretechdigitalmarketingagency.com/?utm_source=gbp&utm_campaign=${n}`;
@@ -66,7 +67,8 @@ async function main() {
     if (p.ig) txt += `\n${'='.repeat(50)}\nINSTAGRAM (${files.ig.join(', ')})\n${'-'.repeat(50)}\n${p.ig}\n\nALT TEXT: ${(p.alt || []).join(' | ')}\n`;
     if (p.fb) txt += `\n${'='.repeat(50)}\nFACEBOOK (${files.fb.join(', ')})\n${'-'.repeat(50)}\n${p.fb}\n`;
     if (p.gbp) txt += `\n${'='.repeat(50)}\nGOOGLE BUSINESS PROFILE (${files.gbp.join(', ')}) — Update post\nButton: Learn more -> ${utm(p.utm)}\n${'-'.repeat(50)}\n${p.gbp}\n`;
-    if (p.script) txt += `\n${'='.repeat(50)}\nREEL SCRIPT (9:16, ${p.script.dur}) — video not produced yet\n${'-'.repeat(50)}\n${p.script.lines.join('\n')}\n\nCAPTION (IG/FB): ${p.script.caption}\nNOTE: AI voice => Instagram isAiGenerated true + Facebook AI label manually. Founder voice/face = no label needed.\n`;
+    if (p.script && REELS[p.id]) p.script.lines = REELS[p.id].scenes.map((s, i) => `${i + 1}. ${s.line}${s.end ? '  [END CARD: logo + WhatsApp 79742 17411 + QR]' : ''}`);
+    if (p.script) txt += `\n${'='.repeat(50)}\nREEL (9:16, approx 30-37 sec) — video BUILT (text-timed, Hindi subtitles); VOICEOVER LINES below (one per scene)\n${'-'.repeat(50)}\n${p.script.lines.join('\n')}\n\nCAPTION (IG/FB): ${p.script.caption}\nNOTE: AI voice => Instagram isAiGenerated true + Facebook AI label manually. Founder voice/face = no label needed.\n`;
     if (p.poll) txt += `\nPOLL STICKER (add manually in Instagram/Facebook Story): ${p.poll}\n`;
     fs.writeFileSync(dir + 'Captions.txt', txt);
     if (p.ig || p.fb || p.gbp) {
@@ -80,6 +82,7 @@ async function main() {
     validate(p); console.log('built', p.id, '->', path.basename(dir));
   }
   await br.close();
+  if (global.__lint) { console.log('\nSMALL TEXT (<24px effective):'); global.__lint.forEach(([f, l]) => console.log(' ', f, '->', l.slice(0, 4).join(' | '))); }
 }
 module.exports = { wa };
 if (require.main === module) main().catch(e => { console.error(e); process.exit(1); });
