@@ -9,3 +9,5 @@
 | 6 Nov 2026, 8:00 AM | Shubh Dhanteras (greeting) | IG, FB, GBP | Scheduled |
 
 Next in the 7-day plan: 7 Nov service post (website + WhatsApp order), 8 Nov Diwali greeting (8 AM), 9 Nov carousel "Diwali ke baad customer dobara kaise aaye?", 10 Nov Govardhan Puja greeting + Story poll.
+
+| 10 Nov 2026, 6:00 PM | Achchi business website ki 5 pehchaan (7-slide carousel; GBP single image) | IG, FB, GBP | Scheduled |

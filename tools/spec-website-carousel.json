@@ -1,0 +1,83 @@
+{
+ "dueAt": "2026-11-10T12:30:00.000Z",
+ "posts": [
+  {
+   "service": "instagram",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-10_Good_Website_Carousel/IG_01_1080x1350.png",
+    "/home/user/futuretech-social/posts/2026-11-10_Good_Website_Carousel/IG_02_1080x1350.png",
+    "/home/user/futuretech-social/posts/2026-11-10_Good_Website_Carousel/IG_03_1080x1350.png",
+    "/home/user/futuretech-social/posts/2026-11-10_Good_Website_Carousel/IG_04_1080x1350.png",
+    "/home/user/futuretech-social/posts/2026-11-10_Good_Website_Carousel/IG_05_1080x1350.png",
+    "/home/user/futuretech-social/posts/2026-11-10_Good_Website_Carousel/IG_06_1080x1350.png",
+    "/home/user/futuretech-social/posts/2026-11-10_Good_Website_Carousel/IG_07_1080x1350.png"
+   ],
+   "remotePrefix": "ft-2026-11-10-website-ig",
+   "alt": [
+    "FutureTech Hindi carousel slide 1 of 7. Cover: achchi business website ki 5 pehchaan.",
+    "FutureTech Hindi carousel slide 2 of 7. Pehchaan 1: phone par tez khule.",
+    "FutureTech Hindi carousel slide 3 of 7. Pehchaan 2: pehli nazar mein saaf bataye — kya, kiske liye, kahan.",
+    "FutureTech Hindi carousel slide 4 of 7. Pehchaan 3: WhatsApp aur Call ek tap par.",
+    "FutureTech Hindi carousel slide 5 of 7. Pehchaan 4: Google par mile — sahi title aur description.",
+    "FutureTech Hindi carousel slide 6 of 7. Pehchaan 5: asli address, photos aur contact.",
+    "FutureTech Hindi carousel slide 7 of 7. Website jaanch ke liye WhatsApp 79742 17411. Save karein, dost ko bhejein."
+   ],
+   "text": "Aapki website sirf \"hai\" ya customer laati bhi hai? 🌐\n\nAchchi business website ki 5 pehchaan:\n1️⃣ Phone par tez khule\n2️⃣ Pehli nazar mein saaf bataye — kya, kiske liye, kahan\n3️⃣ WhatsApp / Call ek tap par\n4️⃣ Google par mile — sahi title aur description\n5️⃣ Asli address, photos aur contact\n\nApni website ki jaanch karwani hai? WhatsApp karein 📲 79742 17411\n\nSave karein, aur jo dost dukaan chalata hai usko bhejiye.\n\n#SmallBusinessIndia #DigitalMarketingIndia #LocalSEO #BusinessWebsite #WebsiteTips",
+   "metadata": {
+    "instagram": {
+     "type": "post",
+     "shouldShareToFeed": true,
+     "isAiGenerated": false
+    }
+   }
+  },
+  {
+   "service": "facebook",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-10_Good_Website_Carousel/FB_01_1080x1080.png",
+    "/home/user/futuretech-social/posts/2026-11-10_Good_Website_Carousel/FB_02_1080x1080.png",
+    "/home/user/futuretech-social/posts/2026-11-10_Good_Website_Carousel/FB_03_1080x1080.png",
+    "/home/user/futuretech-social/posts/2026-11-10_Good_Website_Carousel/FB_04_1080x1080.png",
+    "/home/user/futuretech-social/posts/2026-11-10_Good_Website_Carousel/FB_05_1080x1080.png",
+    "/home/user/futuretech-social/posts/2026-11-10_Good_Website_Carousel/FB_06_1080x1080.png",
+    "/home/user/futuretech-social/posts/2026-11-10_Good_Website_Carousel/FB_07_1080x1080.png"
+   ],
+   "remotePrefix": "ft-2026-11-10-website-fb",
+   "alt": [
+    "FutureTech Hindi carousel slide 1 of 7. Cover: achchi business website ki 5 pehchaan.",
+    "FutureTech Hindi carousel slide 2 of 7. Pehchaan 1: phone par tez khule.",
+    "FutureTech Hindi carousel slide 3 of 7. Pehchaan 2: pehli nazar mein saaf bataye — kya, kiske liye, kahan.",
+    "FutureTech Hindi carousel slide 4 of 7. Pehchaan 3: WhatsApp aur Call ek tap par.",
+    "FutureTech Hindi carousel slide 5 of 7. Pehchaan 4: Google par mile — sahi title aur description.",
+    "FutureTech Hindi carousel slide 6 of 7. Pehchaan 5: asli address, photos aur contact.",
+    "FutureTech Hindi carousel slide 7 of 7. Website jaanch ke liye WhatsApp 79742 17411. Save karein, dost ko bhejein."
+   ],
+   "text": "Achchi business website ki 5 pehchaan 🌐 (swipe karein)\n\n✅ Phone par tez khule\n✅ Pehli nazar mein saaf bataye\n✅ WhatsApp / Call ek tap par\n✅ Google par mile\n✅ Asli address, photos, contact\n\nWebsite jaanchwani hai? https://wa.me/917974217411?text=Namaste%20(FB-C03)\n\n#SmallBusinessIndia #LocalSEO",
+   "metadata": {
+    "facebook": {
+     "type": "post"
+    }
+   }
+  },
+  {
+   "service": "googlebusiness",
+   "files": [
+    "/home/user/futuretech-social/posts/2026-11-10_Good_Website_Carousel/GBP_1200x900.png"
+   ],
+   "remotePrefix": "ft-2026-11-10-website-gbp",
+   "alt": [
+    "FutureTech graphic in Hindi: achchi business website ki 5 pehchaan — tez, saaf message, WhatsApp/Call button, Google par dikhe, asli address aur contact."
+   ],
+   "text": "Achchi business website ki 5 pehchaan: phone par tez khule, saaf bataye ki aap kya karte hain, WhatsApp ya call ek tap par ho, Google par mile, aur asli address, photos aur contact dikhaye. FutureTech aapki website in baton par dekhne mein madad karta hai.",
+   "metadata": {
+    "google": {
+     "type": "whats_new",
+     "detailsWhatsNew": {
+      "button": "learn_more",
+      "link": "https://futuretechdigitalmarketingagency.com/?utm_source=gbp&utm_campaign=p04"
+     }
+    }
+   }
+  }
+ ]
+}
