@@ -50,15 +50,19 @@ h1{font-family:Mukta;font-weight:800;line-height:1.08;letter-spacing:-1px;font-s
 .sv{display:flex;gap:18px}.sv div{flex:1;background:#fff;border:2px solid #E1E7EF;border-radius:24px;padding:16px;text-align:center;font-family:Mukta;font-weight:700;font-size:30px}`;
 const WA = `<svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 .8c-1-.4-1.9-1.3-2.3-2.3l.8-1-1-2z" fill="#fff"/></svg>`;
 const dots = i => `<div class="dots">${Array.from({ length: N }, (_, k) => `<i class="${k === i ? 'on' : ''}"></i>`).join('')}</div>`;
-const slide = (sl, i) => {
+const slide = (sl, i, fb = false) => {
   const top = `<div class="top"><img class="logo" src="${LOGO}"><span class="tag">${sl.tag || 'ADS REALITY CHECK'}</span></div>`;
-  if (sl.last) return `${top}<div class="c" style="top:160px"><h1>Ads से पहले<br><span class="blue">ये 3 चीज़ें</span> ठीक करें</h1></div>
-<div class="c" style="top:385px"><div class="cl">${CHK.map(([d, h, s]) => `<div class="cr"><div class="ci">${ICON(d)}</div><div><div class="ch">${h}</div><div class="cs">${s}</div></div></div>`).join('')}</div></div>
-<div class="c" style="top:752px"><div class="cta"><div class="btn">${WA}WhatsApp पर बात करें</div><div class="num">79742 17411</div><div class="idn">Sagar (MP) से, पूरे India के लिए</div></div></div>
-<div class="c" style="top:1134px"><div class="sv"><div>Save करें</div><div>दोस्त को भेजें</div></div></div><div class="foot">${dots(i)}<div class="web">futuretechdigitalmarketingagency.com</div></div>`;
+  if (sl.last) return `${top}<div class="c" style="top:${fb ? 125 : 160}px"><h1>Ads से पहले<br><span class="blue">ये 3 चीज़ें</span> ठीक करें</h1></div>
+<div class="c" style="top:${fb ? 305 : 385}px"><div class="cl">${CHK.map(([d, h, s]) => `<div class="cr"><div class="ci">${ICON(d)}</div><div><div class="ch">${h}</div><div class="cs">${s}</div></div></div>`).join('')}</div></div>
+<div class="c" style="top:${fb ? 590 : 752}px"><div class="cta"><div class="btn">${WA}WhatsApp पर बात करें</div><div class="num">79742 17411</div><div class="idn">Sagar (MP) से, पूरे India के लिए</div></div></div>
+<div class="c" style="top:${fb ? 895 : 1134}px"><div class="sv"><div>Save करें</div><div>दोस्त को भेजें</div></div></div><div class="foot">${dots(i)}<div class="web">futuretechdigitalmarketingagency.com</div></div>`;
   const foot = sl.cover ? `<div class="foot"><div class="wa"><i></i>WhatsApp 79742 17411</div><div class="swipe">Swipe करें →</div></div>` : `<div class="foot">${dots(i)}<div class="web">futuretechdigitalmarketingagency.com</div></div>`;
-  return `${top}<div class="c" style="top:${sl.cover ? 160 : 150}px"><h1>${sl.h}</h1>${sl.s ? `<div class="sub">${sl.s}</div>` : ''}</div><div class="c" style="left:${sl.cover ? 90 : 40}px;right:${sl.cover ? 90 : 40}px;top:${sl.cover ? 500 : 435}px">${sl.art}</div><div class="c" style="top:${sl.cover ? 1075 : 1070}px"><div class="fact"><b>${sl.fix[0]}</b><span>${sl.fix[1]}</span></div></div>${foot}`;
+  return `${top}<div class="c" style="top:${fb ? 120 : (sl.cover ? 160 : 150)}px"><h1>${sl.h}</h1>${sl.s ? `<div class="sub">${sl.s}</div>` : ''}</div><div class="c" style="left:${fb ? 190 : (sl.cover ? 90 : 40)}px;right:${fb ? 190 : (sl.cover ? 90 : 40)}px;top:${fb ? (sl.cover ? 395 : 350) : (sl.cover ? 500 : 435)}px">${sl.art}</div><div class="c" style="top:${fb ? (sl.cover ? 835 : 840) : (sl.cover ? 1075 : 1070)}px"><div class="fact"><b>${sl.fix[0]}</b><span>${sl.fix[1]}</span></div></div>${foot}`;
 };
+const CSS_FB = CSS + `body{height:1080px}.top{top:46px}.logo{height:54px}h1{font-size:76px}.sub{font-size:31px;margin-top:8px}.fact{font-size:31px;padding:14px 30px}.foot{height:96px}.cl{padding:2px 30px}.cr{padding:8px 0}.ci{flex:0 0 58px;height:58px}.ci svg{width:36px;height:36px}.ch{font-size:32px}.cs{font-size:22px}.cta{padding:20px 30px}.btn{font-size:38px;padding:14px 20px}.btn svg{width:46px;height:46px}.num{font-size:64px;margin-top:6px}.idn{font-size:26px}.sv div{padding:10px;font-size:26px}`;
+const GBPH = `<!doctype html><html><head><meta charset="utf-8">${FONTS}<style>${CSS}body{width:1200px;height:900px}.stripe{position:absolute;left:0;top:0;bottom:0;width:16px;background:#00AEEF}h1{font-size:70px}.fact{font-size:33px;padding:22px 28px;display:block}.foot{height:90px;padding:0 80px}.foot b{font-size:28px}</style></head><body><div class="stripe"></div><img class="logo" style="position:absolute;left:80px;top:44px;height:56px" src="${LOGO}">
+<div class="c" style="left:80px;right:auto;width:520px;top:165px"><h1><span class="mk">Ads</span> चल रही हैं, पर <span class="blue">budget waste</span> हो रहा है?</h1><div class="fact" style="margin-top:34px"><b style="display:inline-block;margin-bottom:10px">FIX</b><br>Ads बढ़ाने से पहले <span class="g">target, page और follow-up</span> ठीक करें।</div></div>
+<div class="c" style="left:610px;right:auto;width:560px;top:215px">${H1}</div><div class="foot"><b>FutureTech Digital Marketing Agency</b><div class="web">futuretechdigitalmarketingagency.com</div></div></body></html>`;
 const SL = [...SLIDES, { last: true, tag: 'ADS REALITY CHECK' }];
 (async () => {
   const br = await require('./browser')();
@@ -66,6 +70,14 @@ const SL = [...SLIDES, { last: true, tag: 'ADS REALITY CHECK' }];
     await p.setContent(`<!doctype html><html><head><meta charset="utf-8">${FONTS}<style>${CSS}</style></head><body>${slide(SL[i], i)}</body></html>`, { waitUntil: 'load', timeout: 180000 });
     await p.evaluate(async () => { await Promise.all(['400', '600', '700', '800'].map(x => document.fonts.load(x + ' 30px Poppins'))); await Promise.all(['600', '700', '800'].map(x => document.fonts.load(x + ' 30px Mukta', 'वेबसाइट नहीं'))); await document.fonts.ready; });
     const g = await p.evaluate(() => { const f = document.querySelector('.foot').getBoundingClientRect().top; return Math.round(f - Math.max(...[...document.querySelectorAll('.c')].map(e => e.getBoundingClientRect().bottom))); }); console.log('slide', i + 1, 'gap to footer', g);
-    await p.screenshot({ path: OUT + `IG_0${i + 1}_1080x1350.png` }); await p.close(); }
+    await p.screenshot({ path: OUT + `IG_0${i + 1}_1080x1350.png` }); await p.close();
+    const q = await br.newPage(); await q.setViewport({ width: 1080, height: 1080 });
+    await q.setContent(`<!doctype html><html><head><meta charset="utf-8">${FONTS}<style>${CSS_FB}</style></head><body>${slide(SL[i], i, true)}</body></html>`, { waitUntil: 'load', timeout: 180000 });
+    await q.evaluate(async () => { await Promise.all(['400', '600', '700', '800'].map(x => document.fonts.load(x + ' 30px Poppins'))); await Promise.all(['600', '700', '800'].map(x => document.fonts.load(x + ' 30px Mukta', 'वेबसाइट नहीं'))); await document.fonts.ready; });
+    const g2 = await q.evaluate(() => { const f = document.querySelector('.foot').getBoundingClientRect().top; return Math.round(f - Math.max(...[...document.querySelectorAll('.c')].map(e => e.getBoundingClientRect().bottom))); }); console.log('FB', i + 1, 'gap', g2);
+    await q.screenshot({ path: OUT + `FB_0${i + 1}_1080x1080.png` }); await q.close(); }
+  { const g = await br.newPage(); await g.setViewport({ width: 1200, height: 900 }); await g.setContent(GBPH, { waitUntil: 'load', timeout: 180000 });
+    await g.evaluate(async () => { await Promise.all(['400', '600', '700', '800'].map(x => document.fonts.load(x + ' 30px Poppins'))); await Promise.all(['600', '700', '800'].map(x => document.fonts.load(x + ' 30px Mukta', 'वेबसाइट नहीं'))); await document.fonts.ready; });
+    await g.screenshot({ path: OUT + 'GBP_1200x900.png' }); await g.close(); }
   await br.close();
 })().catch(e => { console.error(e); process.exit(1); });
