@@ -40,3 +40,25 @@ Skipped (not main): Bhai Dooj, Govardhan Puja, Chhath, Dev Uthani, Sagar Gaurav 
 1. Free audit / free consultation offer? Not allowed in posts until confirmed in chat.
 2. Reels: AI voice (Achird) ya sirf subtitles + music? AI voice par Instagram AI label on rahega.
 3. Series B ke liye client examples/screenshots tabhi jab client ki permission ho; warna flat illustration.
+
+---
+# Carousel plan by business segment (added 10 Nov)
+
+Rule: every carousel's FIRST slide names the business it is for (top-right chip + one line under the headline), e.g. "Coaching & College ke liye". One segment per carousel; slide mockups and examples must match that segment (no kirana example on a coaching carousel).
+Rhythm: 1 carousel/week (Tue 2 PM; moves to Thu when Tue has a festival greeting). 4 segments rotate: Coaching/College -> Dukaan/Retail -> Clinic/Doctor -> Service business.
+
+| Date | Segment | Cover chip | Carousel topic | Series |
+|---|---|---|---|---|
+| Tue 10 Nov (done) | Generic | -- | Achchi business website ki 5 pehchaan (kirana-style mockups) | A |
+| Tue 17 Nov | Coaching / College | Coaching & College ke liye | Website hai par admission enquiry nahi: 5 kaaran (results/case study dikhte nahi, fees/batch unclear, Google par nahi, enquiry button nahi, follow-up nahi) | A |
+| Thu 26 Nov | Dukaan / Retail | Dukaandaar ke liye | Ads mein budget waste kyon: 5 galtiyaan | B |
+| Tue 1 Dec | Clinic / Doctor | Clinic & Doctor ke liye | Website + Google Profile par patient ko kya dikhna chahiye (timing, doctor ki qualification, location, appointment button) — medical ad rules: no "best/100%/guaranteed", no before-after, no cure claims | A/C |
+| Tue 8 Dec | Service business (salon, repair, photographer, tent house, caterer) | Service business ke liye | WhatsApp enquiry ko booking mein kaise badlein: 5 steps | C |
+| Tue 15 Dec | Coaching / College | Coaching & College ke liye | Admission ads: quality enquiry kaise aaye — 4 sawal jo lead se poochne chahiye | B |
+| Tue 22 Dec | Dukaan / Retail | Dukaandaar ke liye | Google Business Profile ke 5 kaam jo har hafte karein (photos, timing, reviews ka jawab, offer post, Q&A) | C |
+| Tue 29 Dec | Clinic / Doctor | Clinic & Doctor ke liye | Ads se patient enquiry: kya sahi, kya galat (rules ke andar) | B |
+
+Notes
+- Myth vs Fact / checklist / Reels follow the same segment rotation where possible (12 Nov Myth vs Fact = Coaching/College).
+- Real results, case studies, patient/student photos only with written permission; otherwise flat illustrations.
+- Founder to confirm the 4 segments and their order before 17 Nov carousel is built.
