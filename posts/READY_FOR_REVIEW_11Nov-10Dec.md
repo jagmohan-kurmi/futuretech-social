@@ -39,3 +39,6 @@ Contact sheets: `posts/_review_sheets/`.
 - Knowledge Graph wording cross-checked against several sources (SEO/industry sites; Google's own help page not retrievable): Knowledge panels are built from Google's Knowledge Graph; owners cannot edit it directly; accurate, consistent info helps; no guarantee. Re-check against Google's help page before posting.
 - Bigger hub chips and CTA recap text; new scorecard / week / FAQ patterns reduce layout repetition.
 - All 4 Reels now exist as MP4 (1080x1920, text-timed scenes, Hindi subtitles in safe zone, end card with WhatsApp + QR). No voice yet: Gemini API key in the environment is rejected (401) so AI voice is blocked until the key is renewed. Options: founder records voice -> `node tools/engine/reel.js reel-1 voice.wav` re-times the video to the voice; or ElevenLabs voice; or post silent and add licensed audio inside Instagram.
+
+## Extra infographic drafts (see posts/INFOGRAPHIC_SERIES.md)
+13 Nov services zig-zag · 30 Nov gym 6 fayde · 7 Dec Excel+WhatsApp vs Web app · 11 Dec Web app modules hub. All drafts, nothing scheduled.

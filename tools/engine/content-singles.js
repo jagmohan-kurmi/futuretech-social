@@ -212,4 +212,132 @@ const reels = [
     R('0-2s HOOK: "Ad के बाद customer को कहाँ भेजें?"', '2-12s Landing page: naya customer ko pehle saaf jaankari chahiye, phir WhatsApp button.', '12-22s Seedha WhatsApp: jo customer pehle se jaanta hai, usse seedhi baat.', '22-26s Rule of thumb: aam taur par naye logon ko page, purane logon ko WhatsApp. (judgement, not a statistic)', '26-30s End card: WhatsApp 79742 17411.'),
     'Ad के बाद customer को कहाँ भेजें? Landing page या WhatsApp 📲 79742 17411 #DigitalMarketingIndia #SmallBusinessIndia #LeadGeneration'),
 ];
-module.exports = [kg, mythBudget, nap, localseo, mythBoost, domain, greet, ...polls, ...reels];
+
+// ---- Infographics (reference-style: grid, hub ring, zigzag, problem/solution). No numbers/stats. Dates are PROPOSED extra slots.
+const info = (o) => single({ chipGbp: '', ...o });
+const infoGym = info({ id: 'info-gym', date: '2026-11-30', slug: 'Infographic_Gym_Fayde', lead: 'P14', utm: 'p14', title: 'INFOGRAPHIC — Gym ke liye digital marketing ke 6 fayde (grid)',
+  slide: { chip: 'INFOGRAPHIC', h: 'Gym के लिए digital marketing के <span class="mk">6 फ़ायदे</span>', sub: 'सही तरीके से करने पर', art: A.grid([{ icon: 'trend', t: 'ज़्यादा enquiry के मौके' }, { icon: 'pin', t: 'Google / Maps पर दिखना' }, { icon: 'tag', t: 'अपनी पहचान मज़बूत' }, { icon: 'target', t: 'सही लोगों तक ad' }, { icon: 'money', t: 'छोटे budget से शुरुआत' }, { icon: 'users', t: 'Members से जुड़े रहना' }], 3), fix: ['ध्यान', 'नतीजे आपके plan और मेहनत पर निर्भर करते हैं'] },
+  ig: `Gym के लिए digital marketing के 6 फ़ायदे 💪 (save करें)
+
+1️⃣ ज़्यादा enquiry के मौके
+2️⃣ Google / Maps पर दिखना
+3️⃣ अपनी पहचान मज़बूत
+4️⃣ सही लोगों तक ad
+5️⃣ छोटे budget से शुरुआत
+6️⃣ Members से जुड़े रहना
+
+नतीजे आपके plan और मेहनत पर निर्भर करते हैं — कोई guarantee नहीं।
+
+अपने gym का plan बनवाना है? WhatsApp करें 📲 79742 17411
+
+#SmallBusinessIndia #DigitalMarketingIndia #GymMarketing #LocalSEO #FitnessBusiness`,
+  fb: `Gym के लिए digital marketing के 6 फ़ायदे 💪
+
+✅ ज़्यादा enquiry के मौके
+✅ Google / Maps पर दिखना
+✅ अपनी पहचान मज़बूत
+✅ सही लोगों तक ad
+✅ छोटे budget से शुरुआत
+✅ Members से जुड़े रहना
+
+अपने gym का plan: ${wa('FB-P14')}
+
+#GymMarketing #SmallBusinessIndia`,
+  gbp: 'Gym के लिए digital marketing के फ़ायदे: ज़्यादा enquiry के मौके, Google और Maps पर दिखना, सही लोगों तक ad, छोटे budget से शुरुआत और members से जुड़े रहना। नतीजे plan और मेहनत पर निर्भर करते हैं। Sagar (MP) की FutureTech Digital Marketing Agency gym के लिए plan बनाने में मदद करती है।',
+  alt: ['Gym ke liye digital marketing ke 6 fayde: enquiry, Google Maps, pehchaan, targeted ad, chhota budget, members se jude rehna'], altGbp: 'FutureTech infographic in Hindi: gym ke liye digital marketing ke 6 fayde.' });
+
+const infoApp = info({ id: 'info-webapp-hub', date: '2026-12-11', slug: 'Infographic_WebApp_Modules', lead: 'P15', utm: 'p15', title: 'INFOGRAPHIC — Web app mein kya-kya ho sakta hai (hub)',
+  slide: { chip: 'INFOGRAPHIC', h: 'Web app में क्या-क्या <span class="mk">हो सकता है?</span>', sub: 'Excel और WhatsApp की जगह, एक जगह पूरा हिसाब', art: A.hubRing('आपका', 'Web App', [{ icon: 'list', l: 'Orders का', l2: 'record' }, { icon: 'users', l: 'Customer', l2: 'list' }, { icon: 'doc', l: 'Bill /', l2: 'Invoice' }, { icon: 'bell', l: 'Payment', l2: 'reminder' }, { icon: 'store', l: 'Stock की', l2: 'जानकारी' }, { icon: 'user', l: 'Staff और', l2: 'काम' }, { icon: 'trend', l: 'Reports' }, { icon: 'wa', l: 'WhatsApp', l2: 'updates' }]), raw: true, fix: ['सुझाव', 'ज़रूरत के हिसाब से modules चुने जाते हैं'] },
+  ig: `Web app में क्या-क्या हो सकता है? 🧩 (save करें)
+
+Excel और WhatsApp की जगह एक जगह पूरा हिसाब:
+✅ Orders का record
+✅ Customer list
+✅ Bill / Invoice
+✅ Payment reminder
+✅ Stock की जानकारी
+✅ Staff और काम
+✅ Reports
+✅ WhatsApp updates
+
+आपकी ज़रूरत के हिसाब से modules चुने जाते हैं।
+
+अपने business के लिए web app की बात करनी है? WhatsApp करें 📲 79742 17411
+
+#SmallBusinessIndia #DigitalMarketingIndia #WebApp #BusinessSoftware #BillingSoftware`,
+  fb: `Web app में क्या-क्या हो सकता है? 🧩
+
+✅ Orders, Customer list
+✅ Bill / Invoice, Payment reminder
+✅ Stock, Staff, Reports
+✅ WhatsApp updates
+
+ज़रूरत के हिसाब से modules। बात करने के लिए: ${wa('FB-P15')}
+
+#WebApp #SmallBusinessIndia`,
+  gbp: 'Web app में orders, customer list, bill या invoice, payment reminder, stock, staff और reports जैसे modules हो सकते हैं, जो आपकी ज़रूरत के हिसाब से चुने जाते हैं। Sagar (MP) की FutureTech Digital Marketing Agency custom web app और billing software बनाती है।',
+  alt: ['Web app mein kya-kya ho sakta hai: orders, customers, billing, payment reminder, stock, staff, reports, WhatsApp updates'], altGbp: 'FutureTech infographic in Hindi: web app mein kya-kya ho sakta hai.' });
+
+const infoPain = info({ id: 'info-webapp-pain', date: '2026-12-07', slug: 'Infographic_Excel_WhatsApp_vs_WebApp', lead: 'P16', utm: 'p16', title: 'INFOGRAPHIC — Excel + WhatsApp vs Web app (problem/solution)',
+  slide: { chip: 'INFOGRAPHIC', h: 'अभी भी Excel और WhatsApp पर <span class="blue">business manage</span> करते हैं?', sub: '', art: A.compare({ h: 'Excel + WhatsApp', rows: ['Orders चैट में बिखरे', 'Payment याद नहीं रहता', 'हिसाब हाथ से', 'Customer की जानकारी अलग-अलग'] }, { h: 'Web app', rows: ['सारा record एक जगह', 'Payment reminder', 'Stock / bill साफ़', 'Customer की पूरी history'] }, true), fix: ['सवाल', 'आपका सबसे ज़्यादा समय कहाँ जाता है?'] },
+  ig: `अभी भी Excel और WhatsApp पर business manage कर रहे हैं? 🤔
+
+Excel + WhatsApp में अक्सर:
+❌ Orders चैट में बिखर जाते हैं
+❌ Payment याद नहीं रहता
+❌ हिसाब हाथ से
+❌ Customer की जानकारी अलग-अलग
+
+Web app में:
+✅ सारा record एक जगह
+✅ Payment reminder
+✅ Stock / bill साफ़
+✅ Customer की पूरी history
+
+आपका सबसे ज़्यादा समय कहाँ जाता है? नीचे comment करें 👇
+
+बात करनी है? WhatsApp करें 📲 79742 17411 | Save करें
+
+#SmallBusinessIndia #DigitalMarketingIndia #WebApp #BusinessSoftware #BillingSoftware`,
+  fb: `अभी भी Excel और WhatsApp पर business manage कर रहे हैं? 🤔
+
+❌ Orders चैट में बिखरे
+❌ Payment याद नहीं रहता
+❌ हिसाब हाथ से
+
+✅ Web app में सारा record एक जगह, payment reminder, साफ़ stock और bill
+
+बात करने के लिए: ${wa('FB-P16')}
+
+#WebApp #SmallBusinessIndia`,
+  gbp: 'Excel और WhatsApp पर business manage करने में orders बिखर जाते हैं और payment याद नहीं रहता। Web app में सारा record एक जगह रहता है, payment reminder और साफ़ stock व bill के साथ। Sagar (MP) की FutureTech Digital Marketing Agency custom web app बनाती है।',
+  alt: ['Excel plus WhatsApp versus web app: orders, payment, hisaab, customer jankari'], altGbp: 'FutureTech infographic in Hindi: Excel aur WhatsApp ki jagah web app.' });
+
+const infoSvc = info({ id: 'info-services', date: '2026-11-13', slug: 'Infographic_FutureTech_Services', lead: 'P17', utm: 'p17', title: 'INFOGRAPHIC — FutureTech kya karta hai (4 services, zigzag)',
+  slide: { chip: 'INFOGRAPHIC', h: 'हम आपके business के लिए <span class="mk">क्या करते हैं</span>', sub: 'Sagar (MP) से, पूरे India के लिए', art: A.zigzag([{ icon: 'globe', t: 'Website', s: 'आपकी अपनी दुकान, online' }, { icon: 'server', t: 'Web app / Billing', s: 'Excel की जगह एक system' }, { icon: 'pin', t: 'Google Profile + Local SEO', s: 'Maps पर दिखें' }, { icon: 'mega', t: 'Google & Meta Ads', s: 'आस-पास के customer तक' }]), fix: ['बात करें', 'अपने business की ज़रूरत बताइए'] },
+  ig: `FutureTech आपके business के लिए क्या करता है? 🧩
+
+1️⃣ Website — आपकी अपनी दुकान, online
+2️⃣ Web app / Billing software — Excel की जगह एक system
+3️⃣ Google Profile + Local SEO — Maps पर दिखें
+4️⃣ Google और Meta Ads — आस-पास के customer तक
+
+Sagar (MP) से, पूरे India के लिए।
+
+अपने business की ज़रूरत बताइए — WhatsApp करें 📲 79742 17411 | Save करें
+
+#SmallBusinessIndia #DigitalMarketingIndia #LocalSEO #WebApp #WebsiteDevelopment`,
+  fb: `FutureTech आपके business के लिए क्या करता है? 🧩
+
+✅ Website
+✅ Web app / Billing software
+✅ Google Profile + Local SEO
+✅ Google और Meta Ads
+
+अपनी ज़रूरत बताइए: ${wa('FB-P17')}
+
+#SmallBusinessIndia #DigitalMarketingIndia`,
+  gbp: 'Sagar (MP) की FutureTech Digital Marketing Agency website, custom web app और billing software, Google Business Profile व Local SEO, और Google व Meta ads में छोटे business की मदद करती है।',
+  alt: ['FutureTech services: website, web app billing software, Google Profile Local SEO, Google aur Meta ads'], altGbp: 'FutureTech infographic in Hindi: hamari services.' });
+
+module.exports = [infoGym, infoApp, infoPain, infoSvc, kg, mythBudget, nap, localseo, mythBoost, domain, greet, ...polls, ...reels];
