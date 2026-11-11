@@ -23,13 +23,14 @@ const subPage = text => `<!doctype html><html><head><meta charset="utf-8">${L.FO
     const err = require('child_process').spawnSync('ffmpeg', ['-hide_banner', '-i', voice, '-af', 'silencedetect=n=-38dB:d=0.22', '-f', 'null', '-'], { encoding: 'utf8' }).stderr; while ((m = re.exec(err))) sil.push([+m[1], +m[2]]);
     const len = R.scenes.map(s => s.line.length); const sum = len.reduce((a, b) => a + b, 0); const used = new Set(); let acc = 0; const cuts = [];
     for (let i = 0; i < n - 1; i++) { acc += len[i]; const want = total * acc / sum; let best = -1; sil.forEach((g, k) => { if (used.has(k)) return; if (best < 0 || Math.abs((g[0] + g[1]) / 2 - want) < Math.abs((sil[best][0] + sil[best][1]) / 2 - want)) best = k; }); if (best >= 0) { used.add(best); cuts.push((sil[best][0] + sil[best][1]) / 2); } else cuts.push(want); }
-    cuts.sort((a, b) => a - b); const b = [0, ...cuts, total + 1.6]; dur = b.slice(1).map((x, i) => +(x - b[i]).toFixed(2));
+    if (process.env.CUTS) { cuts.length = 0; process.env.CUTS.split(',').map(Number).forEach(x => cuts.push(x)); }
+    cuts.sort((a, b) => a - b); const b = [0, ...cuts, total + 2.6]; dur = b.slice(1).map((x, i) => +(x - b[i]).toFixed(2));
   } else dur = R.scenes.map((s, i) => +Math.max(2.8, s.line.length / 11 + 0.9).toFixed(2));
   // 3) clips
   const FPS = 30; const clips = [];
   for (let i = 0; i < n; i++) {
     const d = dur[i], N = Math.ceil(d * FPS), clip = tmp + `c${i}.mp4`;
-    execFileSync('ffmpeg', ['-v', 'error', '-y', '-loop', '1', '-t', String(d), '-i', tmp + `s${i}.png`, '-loop', '1', '-t', String(d), '-i', tmp + `t${i}.png`, '-filter_complex', `[0:v]scale=2160:3840,zoompan=z='1+0.035*on/${N}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=${N}:s=1080x1920:fps=${FPS},fade=t=in:st=0:d=0.25[a];[a][1:v]overlay=0:0:shortest=1,format=yuv420p[v]`, '-map', '[v]', '-r', String(FPS), '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-t', String(d), clip]);
+    execFileSync('ffmpeg', ['-v', 'error', '-y', '-loop', '1', '-t', String(d), '-i', tmp + `s${i}.png`, '-loop', '1', '-t', String(d), '-i', tmp + `t${i}.png`, '-filter_complex', `[0:v]scale=2160:3840,zoompan=z='1+0.035*on/${N}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=${N}:s=1080x1920:fps=${FPS},fade=t=in:st=0:d=0.25,fade=t=out:st=${(d-0.25).toFixed(2)}:d=0.25[a];[a][1:v]overlay=0:0:shortest=1,format=yuv420p[v]`, '-map', '[v]', '-r', String(FPS), '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-t', String(d), clip]);
     clips.push(clip);
   }
   fs.writeFileSync(tmp + 'list.txt', clips.map(c => `file '${c}'`).join('\n'));
