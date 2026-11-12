@@ -28,3 +28,8 @@ Next in the 7-day plan: 7 Nov service post (website + WhatsApp order), 8 Nov Diw
 
 NOT scheduled yet (Buffer limit): 3 Dec Local SEO, 4 Dec Excel vs Web app infographic, 8 Dec Clinic carousel, 10 Dec Web app modules. Their images are already uploaded to /social/ — later run ONLY `node tools/post-schedule.js <folder>/spec.json schedule` (never `upload` again: gate refuses existing names). Free slots open as posts publish, or upgrade the Buffer plan.
 NOT in Buffer by design: 4 Reels (no voice yet), 4 Story polls (poll sticker added manually).
+
+## Update 12 Nov 2026 (slots freed after 11-12 Nov posts published)
+| 3 Dec 2:00 PM | Single: Local SEO | IG FB GBP | Scheduled |
+| 4 Dec 2:00 PM | Infographic: Excel+WhatsApp vs Web app | IG FB GBP | Scheduled |
+Remaining unscheduled: 8 Dec Clinic carousel (reminder 17 Nov), 10 Dec Web app modules infographic (reminder 19 Nov). The 13 Nov reminder was deleted (4 Dec already done).
