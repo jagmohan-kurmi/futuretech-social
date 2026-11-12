@@ -373,4 +373,34 @@ const infoLocal = info({ id: 'info-local-steps', date: '2026-11-20', slug: 'Info
   gbp: 'Google पर दिखने के 6 कदम: Google Profile claim करें, नाम-पता-फ़ोन एक जैसा रखें, timing और असली photos डालें, services जोड़ें, reviews का जवाब दें और नियमित updates करें। Ranking की guarantee नहीं होती। Sagar (MP) की FutureTech Digital Marketing Agency Local SEO में मदद करती है।',
   alt: ['Google par dikhne ke 6 kadam: profile claim, NAP same, timing photos, services, reviews, updates'], altGbp: 'FutureTech infographic in Hindi: Google par dikhne ke 6 kadam.' });
 
-module.exports = [infoLocal, infoGym, infoApp, infoPain, infoSvc, kg, mythBudget, nap, localseo, mythBoost, domain, greet, ...polls, ...reels];
+const infoSeo = info({ id: 'info-seo-after-website', date: '2026-11-20', slug: 'Infographic_Website_Ke_Baad_SEO', lead: 'P19', utm: 'p19', title: 'INFOGRAPHIC — Website bana li, ab kya? SEO bhi zaroori (5 kadam) — REPLACES 20 Nov "Google par dikhne ke 6 kadam" after founder OK',
+  slide: { chip: 'INFOGRAPHIC', h: 'Website बना ली, <span class="mk">अब क्या?</span>', sub: 'SEO की शुरुआत — 5 ज़रूरी कदम', art: A.zigzag([{ icon: 'pin', t: 'Google Business Profile', s: 'बनाएँ और पूरा भरें' }, { icon: 'doc', t: 'Title और description', s: 'हर page का सही लिखें' }, { icon: 'list', t: 'नाम-पता-फ़ोन एक जैसा', s: 'हर जगह वही' }, { icon: 'phone', t: 'Phone पर तेज़ + button', s: 'WhatsApp / Call एक tap' }, { icon: 'search', t: 'Search Console', s: 'site जोड़ें, sitemap भेजें' }]), fix: ['ध्यान', 'SEO में समय लगता है — ranking की guarantee नहीं'] },
+  ig: `Website बना ली, अब क्या? SEO भी ज़रूरी है 🔎 (save करें)
+
+Website के बाद ये 5 कदम:
+1️⃣ Google Business Profile बनाएँ और पूरा भरें
+2️⃣ हर page का सही title और description
+3️⃣ नाम-पता-फ़ोन हर जगह एक जैसा
+4️⃣ Phone पर तेज़ खुले, WhatsApp / Call एक tap पर
+5️⃣ Google Search Console में site जोड़ें, sitemap भेजें
+
+SEO में समय लगता है। Ranking की कोई guarantee नहीं होती, पर सही शुरुआत से रास्ता बनता है।
+
+अपनी website का SEO शुरू करना है? WhatsApp करें 📲 79742 17411
+
+#LocalSEO #DigitalMarketingIndia #SmallBusinessIndia #SEOBasics #WebsiteTips`,
+  fb: `Website बना ली, अब क्या? SEO भी ज़रूरी है 🔎
+
+✅ Google Business Profile
+✅ हर page का title और description
+✅ नाम-पता-फ़ोन एक जैसा
+✅ Phone पर तेज़ + WhatsApp / Call button
+✅ Search Console में site जोड़ें
+
+(SEO में समय लगता है, ranking की guarantee नहीं।) मदद: ${wa('FB-P19')}
+
+#LocalSEO #SmallBusinessIndia`,
+  gbp: 'Website बनाने के बाद SEO की शुरुआत: Google Business Profile पूरा भरें, हर page का सही title और description लिखें, नाम-पता-फ़ोन एक जैसा रखें, website को phone पर तेज़ और WhatsApp या call button के साथ रखें, और Google Search Console में site जोड़ें। SEO में समय लगता है, ranking की guarantee नहीं। Sagar (MP) की FutureTech Digital Marketing Agency मदद करती है।',
+  alt: ['Website bana li ab kya: SEO ke 5 kadam, Google Profile, title description, NAP, tez site aur button, Search Console'], altGbp: 'FutureTech infographic in Hindi: website ke baad SEO ke 5 kadam.' });
+
+module.exports = [infoSeo, infoLocal, infoGym, infoApp, infoPain, infoSvc, kg, mythBudget, nap, localseo, mythBoost, domain, greet, ...polls, ...reels];
