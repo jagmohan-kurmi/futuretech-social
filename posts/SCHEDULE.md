@@ -37,3 +37,8 @@ Remaining unscheduled: 8 Dec Clinic carousel (reminder 17 Nov), 10 Dec Web app m
 ## Update 15 Nov 2026 (Buffer + Gemini keys renewed and verified)
 | 8 Dec 2:00 PM | Carousel: Clinic/Doctor (9) | IG FB GBP | Scheduled |
 Remaining unscheduled: 10 Dec Web app modules infographic (reminder 19 Nov). The 17 Nov reminder was deleted (8 Dec already done). SEO post (replaces 20 Nov) still waiting founder OK. Gemini TTS (gemini-3.8-flash-tts, voice Achird) works again.
+
+## 15 Nov 2026 — Auto queue (founder: "video ko chhod ke baaki sab schedule karo")
+Buffer free plan allows 10 scheduled posts per channel (currently 10/10), so remaining NON-video posts go through `tools/schedule-queue.js` (daily check 4:41 PM IST via a scheduled task; schedules the next post whenever a slot is free; state in posts/QUEUE_STATE.json).
+Queue (14, in order): 10 Dec Web app modules infographic · 11 Dec Myth: budget · 14 Dec Gym 6 fayde · 15 Dec Website kyu zaruri carousel · 17 Dec Domain vs Hosting · 18 Dec Myth: Boost · 22 Dec GBP guide · 24 Dec WhatsApp Business · 29 Dec Reviews · 5 Jan Website 5-min check · 7 Jan Billing/udhaar · 12 Jan Local SEO 30 din · 14 Jan Ads 7 sawal · 19 Jan Salon/Restaurant.
+Not in queue: Reels (video), Story polls (sticker added manually), SEO replacement for 20 Nov (waiting founder OK). Old 19 Nov reminder for 10 Dec deleted (now handled by the queue).
