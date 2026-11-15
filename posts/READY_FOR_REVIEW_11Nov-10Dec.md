@@ -40,3 +40,18 @@ Size per platform · no text overflow · text >= 24px · IG <= 5 hashtags, hook 
 2. 11 Nov ads carousel still has the old (long) CTA; replacing it means deleting 3 scheduled Buffer posts — needs founder OK before 2 PM 11 Nov.
 3. Web app: confirm real modules/services; any permitted demo/client.
 4. Hindi tone + Knowledge Graph wording to be read once by founder; no stats posts until sources verified.
+
+## 8 new informational carousels (built 15 Nov; PROPOSED dates, nothing scheduled)
+| Proposed date | Carousel | Folder | Lead |
+|---|---|---|---|
+| Tue 22 Dec | Google Business Profile kaise banayein | 2026-12-22_Google_Business_Profile_Kaise_Banayein | C10 |
+| Thu 24 Dec | WhatsApp Business ke 6 features | 2026-12-24_WhatsApp_Business_Ke_6_Features | C12 |
+| Tue 29 Dec | Reviews kaise badhayein aur jawab dein | 2026-12-29_Reviews_Kaise_Badhayein_Aur_Jawab_Dein | C11 |
+| Tue 5 Jan | Website ka 5 minute check | 2027-01-05_Website_5_Minute_Check | C13 |
+| Thu 7 Jan | Notebook se software tak (udhaar/stock/billing) | 2027-01-07_Notebook_Se_Software_Tak_Udhaar_Billing | C14 |
+| Tue 12 Jan | Local SEO 30 din checklist | 2027-01-12_Local_SEO_30_Din_Checklist | C15 |
+| Thu 14 Jan | Ads shuru karne se pehle 7 sawal | 2027-01-14_Ads_Shuru_Karne_Se_Pehle_7_Sawal | C16 |
+| Tue 19 Jan | Salon / Restaurant digital marketing plan | 2027-01-19_Salon_Restaurant_Digital_Marketing_Plan | C17 |
+
+## Reels now have voice (15 Nov)
+All 5 Reels re-built with Gemini TTS voice (Achird), scene cuts synced to natural pauses. AI voice => Instagram isAiGenerated = true + Facebook AI label manually. Reel 5 also has an ElevenLabs (Neeraj) voice file as an alternative.
