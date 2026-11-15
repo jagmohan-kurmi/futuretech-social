@@ -33,3 +33,7 @@ NOT in Buffer by design: 4 Reels (no voice yet), 4 Story polls (poll sticker add
 | 3 Dec 2:00 PM | Single: Local SEO | IG FB GBP | Scheduled |
 | 4 Dec 2:00 PM | Infographic: Excel+WhatsApp vs Web app | IG FB GBP | Scheduled |
 Remaining unscheduled: 8 Dec Clinic carousel (reminder 17 Nov), 10 Dec Web app modules infographic (reminder 19 Nov). The 13 Nov reminder was deleted (4 Dec already done).
+
+## Update 15 Nov 2026 (Buffer + Gemini keys renewed and verified)
+| 8 Dec 2:00 PM | Carousel: Clinic/Doctor (9) | IG FB GBP | Scheduled |
+Remaining unscheduled: 10 Dec Web app modules infographic (reminder 19 Nov). The 17 Nov reminder was deleted (8 Dec already done). SEO post (replaces 20 Nov) still waiting founder OK. Gemini TTS (gemini-3.8-flash-tts, voice Achird) works again.
