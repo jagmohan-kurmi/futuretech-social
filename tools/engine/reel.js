@@ -20,9 +20,19 @@ const subPage = text => `<!doctype html><html><head><meta charset="utf-8">${L.FO
   if (voice) {
     const total = +execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', voice]).toString().trim();
     const sil = []; const re = /silence_start: ([\d.]+)[\s\S]*?silence_end: ([\d.]+)/g; let m;
-    const err = require('child_process').spawnSync('ffmpeg', ['-hide_banner', '-i', voice, '-af', 'silencedetect=n=-38dB:d=0.22', '-f', 'null', '-'], { encoding: 'utf8' }).stderr; while ((m = re.exec(err))) sil.push([+m[1], +m[2]]);
-    const len = R.scenes.map(s => s.line.length); const sum = len.reduce((a, b) => a + b, 0); const used = new Set(); let acc = 0; const cuts = [];
-    for (let i = 0; i < n - 1; i++) { acc += len[i]; const want = total * acc / sum; let best = -1; sil.forEach((g, k) => { if (used.has(k)) return; if (best < 0 || Math.abs((g[0] + g[1]) / 2 - want) < Math.abs((sil[best][0] + sil[best][1]) / 2 - want)) best = k; }); if (best >= 0) { used.add(best); cuts.push((sil[best][0] + sil[best][1]) / 2); } else cuts.push(want); }
+    const err = require('child_process').spawnSync('ffmpeg', ['-hide_banner', '-i', voice, '-af', 'silencedetect=n=-38dB:d=0.18', '-f', 'null', '-'], { encoding: 'utf8' }).stderr;
+    // DP: pick n-1 silences (increasing) whose times best match cumulative script length; longer pauses preferred (sentence ends)
+    const len = R.scenes.map(s => s.line.length); const sum = len.reduce((a, b) => a + b, 0);
+    const sp = []; { const re2 = /silence_start: ([\d.]+)[\s\S]*?silence_end: ([\d.]+)/g; let mm; while ((mm = re2.exec(err))) sp.push([+mm[1], +mm[2]]); }
+    const lead = sp.length && sp[0][0] < 0.05 ? sp[0][1] : 0, tail = sp.length && Math.abs(sp[sp.length - 1][1] - total) < 0.1 ? sp[sp.length - 1][0] : total;
+    const cand = sp.filter(g => g[0] > lead + 0.3 && g[1] < tail - 0.3).map(g => ({ t: (g[0] + g[1]) / 2, l: g[1] - g[0] }));
+    const targets = []; { let acc = 0; for (let i = 0; i < n - 1; i++) { acc += len[i]; targets.push(lead + (tail - lead) * acc / sum); } }
+    const K = targets.length, M = cand.length; const INF = 1e9; const dp = Array.from({ length: K }, () => Array(M).fill(INF)), bk = Array.from({ length: K }, () => Array(M).fill(-1));
+    const cost = (k, j) => Math.abs(cand[j].t - targets[k]) - 2.5 * Math.min(cand[j].l, 0.8);
+    for (let j = 0; j < M; j++) dp[0][j] = cost(0, j);
+    for (let k = 1; k < K; k++) for (let j = 0; j < M; j++) for (let q = 0; q < j; q++) { const v = dp[k - 1][q] + cost(k, j); if (v < dp[k][j]) { dp[k][j] = v; bk[k][j] = q; } }
+    const cuts = []; if (K && M >= K) { let j = 0; for (let q = 0; q < M; q++) if (dp[K - 1][q] < dp[K - 1][j]) j = q; for (let k = K - 1; k >= 0; k--) { cuts.unshift(+cand[j].t.toFixed(2)); j = bk[k][j]; } } else targets.forEach(x => cuts.push(x));
+    console.log('cuts', cuts.join(','));
     if (process.env.CUTS) { cuts.length = 0; process.env.CUTS.split(',').map(Number).forEach(x => cuts.push(x)); }
     cuts.sort((a, b) => a - b); const b = [0, ...cuts, total + 2.6]; dur = b.slice(1).map((x, i) => +(x - b[i]).toFixed(2));
   } else dur = R.scenes.map((s, i) => +Math.max(2.8, s.line.length / 11 + 0.9).toFixed(2));
