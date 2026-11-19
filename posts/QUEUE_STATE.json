@@ -1,11 +1,17 @@
 {
  "done": [
-  "2026-12-10_Infographic_WebApp_Modules"
+  "2026-12-10_Infographic_WebApp_Modules",
+  "2026-12-11_Myth_Budget_Leads"
  ],
  "partial": {
   "2026-12-10_Infographic_WebApp_Modules": [
    "facebook",
    "instagram",
+   "googlebusiness"
+  ],
+  "2026-12-11_Myth_Budget_Leads": [
+   "instagram",
+   "facebook",
    "googlebusiness"
   ]
  }

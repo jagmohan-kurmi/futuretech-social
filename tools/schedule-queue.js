@@ -20,7 +20,7 @@ const remote = (p, f, i) => `${p.remotePrefix}-${String(i + 1).padStart(2, '0')}
     const spec = JSON.parse(fs.readFileSync(specFile, 'utf8')); if (new Date(spec.dueAt) < new Date(Date.now() + 3600e3)) { console.log('SKIP (due time too close/past)', f); state.done.push(f); continue; }
     if (dry) { console.log('WOULD schedule', f, spec.dueAt); free--; continue; }
     const upload = require('./upload');
-    for (const p of spec.posts) for (const [i, file] of p.files.entries()) { const name = remote(p, file, i); const head = await fetch(`${SITE}/social/${name}`, { method: 'HEAD' }); if (head.status !== 200) { console.log('upload', name, await upload(file, name)); } }
+    for (const p of spec.posts) for (const [i, file] of p.files.entries()) { const name = remote(p, file, i); const head = await fetch(`${SITE}/social/${name}?c=${Date.now()}`); if (head.status !== 200) { try { console.log('upload', name, await upload(file, name)); } catch (e) { if (/409|already exists/.test(String(e.message))) console.log('already on server:', name); else throw e; } } }
     let ok = true; const doneSvc = state.partial[f] = state.partial[f] || [];
     for (const p of spec.posts) {
       if (doneSvc.includes(p.service)) continue;

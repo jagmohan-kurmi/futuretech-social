@@ -46,3 +46,7 @@ Not in queue: Reels (video), Story polls (sticker added manually), SEO replaceme
 ## 17 Nov 2026 — queue run
 | 10 Dec 2:00 PM | Infographic: Web app modules | IG FB GBP | Scheduled (IG/GBP needed one retry: Buffer image-read glitch) |
 Queue remaining: 13. Script now tracks per-channel progress and per-channel limits (posts/QUEUE_STATE.json).
+
+## 19 Nov 2026 — queue run
+| 11 Dec 2:00 PM | Myth vs Fact: budget badhao = leads? | IG FB GBP | Scheduled |
+Queue remaining: 12. Script fixed: checks file with GET (+cache buster) instead of HEAD; treats "already exists" upload as OK.
