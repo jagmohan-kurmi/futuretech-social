@@ -50,3 +50,7 @@ Queue remaining: 13. Script now tracks per-channel progress and per-channel limi
 ## 19 Nov 2026 — queue run
 | 11 Dec 2:00 PM | Myth vs Fact: budget badhao = leads? | IG FB GBP | Scheduled |
 Queue remaining: 12. Script fixed: checks file with GET (+cache buster) instead of HEAD; treats "already exists" upload as OK.
+
+## 20 Nov 2026 — queue run
+| 14 Dec 2:00 PM | Infographic: Gym ke 6 fayde | IG FB GBP | Scheduled |
+Queue remaining: 11.
