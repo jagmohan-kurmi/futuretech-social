@@ -2,7 +2,8 @@
  "done": [
   "2026-12-10_Infographic_WebApp_Modules",
   "2026-12-11_Myth_Budget_Leads",
-  "2026-12-14_Infographic_Gym_Fayde"
+  "2026-12-14_Infographic_Gym_Fayde",
+  "2026-12-15_Website_Kyu_Zaruri"
  ],
  "partial": {
   "2026-12-10_Infographic_WebApp_Modules": [
@@ -16,6 +17,11 @@
    "googlebusiness"
   ],
   "2026-12-14_Infographic_Gym_Fayde": [
+   "instagram",
+   "facebook",
+   "googlebusiness"
+  ],
+  "2026-12-15_Website_Kyu_Zaruri": [
    "instagram",
    "facebook",
    "googlebusiness"

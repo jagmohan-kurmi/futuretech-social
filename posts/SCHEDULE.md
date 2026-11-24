@@ -54,3 +54,7 @@ Queue remaining: 12. Script fixed: checks file with GET (+cache buster) instead 
 ## 20 Nov 2026 — queue run
 | 14 Dec 2:00 PM | Infographic: Gym ke 6 fayde | IG FB GBP | Scheduled |
 Queue remaining: 11.
+
+## 24 Nov 2026 — queue run
+| 15 Dec 2:00 PM | Carousel: Website kyu zaruri (9) | IG FB GBP | Scheduled |
+Queue remaining: 10.
