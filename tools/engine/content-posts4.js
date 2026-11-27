@@ -1,13 +1,16 @@
 // Batch 4: engagement-focused STATIC content (quiz, relatable, this-or-that, mistakes, checklist, story polls). No numbers/prices/guarantees.
-const { A } = require('./lib');
+const L = require('./lib'); const { A } = L; const ic = L.ic;
 const wa = c => `https://wa.me/917974217411?text=Namaste%20(${c})`;
 const car = o => ({ kind: 'carousel', time: '14:00', ...o });
 const single = o => ({ kind: 'single', time: '14:00', ...o });
 const CTA = (h, ask) => ({ cta: true, h, ask, reply: 'Namaste! Bataiye, aapka business kya hai?', share: 'Business वाले दोस्त को भेजें' });
-const pollBox = t => `<div style="width:780px;height:320px;border:4px dashed #B8C4D4;border-radius:44px;display:flex;align-items:center;justify-content:center;font-size:38px;font-weight:600;color:#8794A6;font-family:Poppins">[ Poll sticker: ${t} ]</div>`;
-const poll = (n, date, q, opts, note) => ({ id: `poll-${n}`, kind: 'poll', date, time: '14:00', slug: `Story_Poll_${n}`, title: `STORY POLL ${n} — ${date}`, poll: opts, slide: { chip: 'POLL', h: q, sub: note || 'जवाब दें — नीचे poll में tap करें', art: pollBox(opts), plain: true } });
+const pollBox = (opts) => `<div style="width:800px;background:#fff;border:4px solid #041030;border-radius:44px;padding:44px 44px 36px;font-family:Mukta,sans-serif"><div style="font:700 30px Poppins;color:#0060A8;letter-spacing:3px;margin-bottom:26px">आपका जवाब?</div>${opts.split(' / ').map(o => `<div style="display:flex;align-items:center;gap:26px;border:3px solid #CBD6E6;border-radius:26px;padding:24px 30px;margin-bottom:18px"><div style="width:46px;height:46px;border:4px solid #0060A8;border-radius:50%"></div><div style="font:800 46px Mukta;color:#041030">${o}</div></div>`).join('')}</div>`;
+const poll = (n, date, q, opts, note) => ({ id: `poll-${n}`, kind: 'poll', date, time: '14:00', slug: `Story_Poll_${n}`, title: `STORY POLL ${n} — ${date}`, poll: opts, slide: { chip: 'POLL', h: q, sub: note || 'अपना जवाब चुनिए', art: pollBox(opts), plain: true } });
 const SK = [['सही', 'check'], ['ग़लत', 'x']];
-const q = (n, stmt) => ({ h: `सवाल ${n}: <span class="blue">सही या ग़लत?</span>`, sub: `“${stmt}”`, art: A.cards([{ icon: 'check', t: 'सही' }, { icon: 'x', t: 'ग़लत' }], false) });
+const quizArt = (n, stmt) => `<div style="width:800px;font-family:Mukta,sans-serif"><div style="background:#fff;border:4px solid #041030;border-radius:40px;padding:60px 46px 46px;position:relative;margin-bottom:34px"><div style="position:absolute;top:-30px;left:40px;background:#0060A8;color:#fff;font:700 32px Poppins;padding:8px 30px;border-radius:40px">सवाल ${n}</div><div style="font:800 58px/1.35 Mukta;color:#041030">“${stmt}”</div></div><div style="display:flex;gap:26px"><div style="flex:1;background:#0060A8;color:#fff;border-radius:32px;padding:30px 0;text-align:center;font:800 54px Mukta;display:flex;align-items:center;justify-content:center;gap:16px"><span style="width:50px;height:50px;display:block">${ic('check', '#fff', 3)}</span>सही</div><div style="flex:1;background:#fff;color:#041030;border:4px solid #041030;border-radius:32px;padding:30px 0;text-align:center;font:800 54px Mukta;display:flex;align-items:center;justify-content:center;gap:16px"><span style="width:50px;height:50px;display:block">${ic('x', '#041030', 3)}</span>ग़लत</div></div></div>`;
+const q = (n, stmt) => ({ h: `सही या <span class="blue">ग़लत?</span>`, sub: 'अपना जवाब सोचिए, आख़िर में मिलाइए', art: quizArt(n, stmt) });
+const abCard = (tag, icn, t, s) => `<div style="flex:1;background:#fff;border:4px solid #041030;border-radius:40px;padding:50px 30px 44px;text-align:center;position:relative"><div style="position:absolute;top:-30px;left:50%;transform:translateX(-50%);background:#FFC94D;color:#041030;font:800 40px Poppins;width:70px;height:70px;border-radius:50%;display:flex;align-items:center;justify-content:center">${tag}</div><div style="width:130px;height:130px;margin:10px auto 24px;background:#EAF3FC;border-radius:50%;padding:30px">${ic(icn, '#0060A8', 2.2)}</div><div style="font:800 60px/1.2 Mukta;color:#041030">${t}</div><div style="font:500 34px Poppins;color:#5F6B7A;margin-top:12px">${s}</div></div>`;
+const abArt = `<div style="width:840px;display:flex;gap:30px;font-family:Mukta,sans-serif">${abCard('A', 'globe', 'Website', 'अपना पक्का पता')}${abCard('B', 'cam', 'Instagram page', 'रोज़ का जुड़ाव')}</div>`;
 
 const quiz = car({ id: 'quiz-sahi-galat', date: '2027-02-04', slug: 'Quiz_Sahi_Ya_Galat_5_Sawal', lead: 'C20', utm: 'c20', series: 'QUIZ',
   title: 'CAROUSEL — Quiz: sahi ya galat, 5 sawal (8 slides)', gbpH: 'क्या आप जानते हैं? <span class="mk">सही या ग़लत</span>',
@@ -121,7 +124,7 @@ const relatable = single({ id: 'relatable-messages', date: '2027-01-25', slug: '
   alt: ['Roz ke wahi sawal: price, location aur timing. Jawab ek baar Google Profile aur WhatsApp quick replies me daalein'], altGbp: 'FutureTech graphic in Hindi: roz ke wahi sawal aur unka aasaan hal.' });
 
 const thisThat = single({ id: 'this-or-that', date: '2027-01-30', slug: 'Pehle_Kya_Website_Ya_Instagram', lead: 'P24', utm: 'p24', title: 'SINGLE — Pehle kya: Website ya Instagram page? (A/B comment)',
-  slide: { chip: 'AAPKI RAAY', h: 'पहले क्या बनाएँ? <span class="mk">A या B</span>', sub: 'आपकी राय क्या है?', art: A.cards([{ icon: 'globe', t: 'A: Website', s: 'अपना पक्का पता' }, { icon: 'cam', t: 'B: Instagram page', s: 'रोज़ का जुड़ाव' }], false), fix: ['COMMENT', 'अपना जवाब A या B लिखिए — हम बताएँगे कैसे चुनें।'] },
+  slide: { chip: 'AAPKI RAAY', h: 'पहले क्या बनाएँ? <span class="mk">A या B</span>', sub: 'आपकी राय क्या है?', art: abArt, fix: ['COMMENT', 'अपना जवाब A या B लिखिए — हम बताएँगे कैसे चुनें।'] },
   ig: `नया business शुरू किया — पहले क्या बनाएँ? 🤔
 
 A) Website — अपना पक्का पता
@@ -176,4 +179,4 @@ const festival = single({ id: 'festival-checklist', date: '2027-02-12', slug: 'T
   gbp: 'त्योहार से पहले की तैयारी: timing और छुट्टी update करें, Google Business Profile में बदलाव डालें, WhatsApp में greeting या away message लगाएँ, असली photos तैयार रखें और posts पहले से तय करें। FutureTech Digital Marketing Agency आपकी मदद करती है।',
   alt: ['Tyohaar se pehle 5 taiyari: timing, Google Profile, WhatsApp message, photos aur post plan'], altGbp: 'FutureTech checklist in Hindi: tyohaar se pehle 5 taiyari.' });
 
-module.exports = [relatable, poll(5, '2027-01-27', 'आपके business की <span class="mk">Google profile</span> है?', 'हाँ / नहीं / पता नहीं'), thisThat, poll(6, '2027-02-03', 'Message का जवाब <span class="mk">कितनी देर</span> में देते हैं?', 'तुरंत / कुछ घंटे में / अगले दिन'), quiz, mistakes, poll(7, '2027-02-10', 'आपका ज़्यादा काम <span class="mk">कहाँ से</span> आता है?', 'जान-पहचान / Google-Maps / Social media'), festival];
+module.exports = [relatable, poll(5, '2027-01-27', 'आपके business की Google profile है?', 'हाँ / नहीं / पता नहीं'), thisThat, poll(6, '2027-02-03', 'Customer के message का जवाब कितनी देर में देते हैं?', 'तुरंत / कुछ घंटे में / अगले दिन'), quiz, mistakes, poll(7, '2027-02-10', 'आपका ज़्यादा काम कहाँ से आता है?', 'जान-पहचान / Google-Maps / Social media'), festival];
