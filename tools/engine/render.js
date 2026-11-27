@@ -3,7 +3,7 @@
 const fs = require('fs'); const path = require('path');
 const L = require('./lib');
 const { F, pageHTML, slide, ctaSlide, A, renderPages, ROOT } = L;
-const POSTS = [...require('./content-carousels'), ...require('./content-carousels2'), ...require('./content-singles')];
+const POSTS = [...require('./content-carousels'), ...require('./content-carousels2'), ...require('./content-singles'), ...require('./content-posts3')];
 const REELS = require('./content-reels');
 const only = process.argv.slice(2);
 const wa = code => `https://wa.me/917974217411?text=Namaste%20(${code})`;
