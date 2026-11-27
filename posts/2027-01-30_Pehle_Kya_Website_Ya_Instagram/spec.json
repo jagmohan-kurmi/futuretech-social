@@ -1,0 +1,59 @@
+{
+ "dueAt": "2027-01-30T08:30:00.000Z",
+ "posts": [
+  {
+   "service": "instagram",
+   "files": [
+    "/home/user/futuretech-social/posts/2027-01-30_Pehle_Kya_Website_Ya_Instagram/Instagram_1080x1350.png"
+   ],
+   "remotePrefix": "ft-2027-01-30-pehle-kya-website-ya-instagram-ig",
+   "alt": [
+    "Pehle kya banayein: A website ya B Instagram page. Comment me A ya B likhein"
+   ],
+   "text": "नया business शुरू किया — पहले क्या बनाएँ? 🤔\n\nA) Website — अपना पक्का पता\nB) Instagram page — रोज़ का जुड़ाव\n\nआप क्या चुनेंगे? Comment में सिर्फ़ A या B लिखिए 👇\n\nहम अगली post में बताएँगे कि अपने business के हिसाब से कैसे चुनें।\n\nमदद चाहिए? WhatsApp करें 📲 79742 17411 | Save करें\n\n#SmallBusinessIndia #DigitalMarketingIndia #NewBusiness #LocalSEO #SocialMedia",
+   "metadata": {
+    "instagram": {
+     "type": "post",
+     "shouldShareToFeed": true,
+     "isAiGenerated": false
+    }
+   }
+  },
+  {
+   "service": "facebook",
+   "files": [
+    "/home/user/futuretech-social/posts/2027-01-30_Pehle_Kya_Website_Ya_Instagram/Facebook_1200x1200.png"
+   ],
+   "remotePrefix": "ft-2027-01-30-pehle-kya-website-ya-instagram-fb",
+   "alt": [
+    "Pehle kya banayein: A website ya B Instagram page. Comment me A ya B likhein"
+   ],
+   "text": "पहले क्या बनाएँ? 🤔\n\nA) Website\nB) Instagram page\n\nComment में A या B लिखिए 👇\n\nमदद के लिए: https://wa.me/917974217411?text=Namaste%20(FB-P24)\n\n#SmallBusinessIndia #NewBusiness",
+   "metadata": {
+    "facebook": {
+     "type": "post"
+    }
+   }
+  },
+  {
+   "service": "googlebusiness",
+   "files": [
+    "/home/user/futuretech-social/posts/2027-01-30_Pehle_Kya_Website_Ya_Instagram/GBP_1200x900.png"
+   ],
+   "remotePrefix": "ft-2027-01-30-pehle-kya-website-ya-instagram-gbp",
+   "alt": [
+    "FutureTech graphic in Hindi: pehle website ya Instagram page."
+   ],
+   "text": "नया business शुरू करने पर पहले website बनाएँ या social media page? आपके business के हिसाब से जवाब अलग हो सकता है। FutureTech Digital Marketing Agency आपके लिए सही शुरुआत चुनने में मदद करती है।",
+   "metadata": {
+    "google": {
+     "type": "whats_new",
+     "detailsWhatsNew": {
+      "button": "learn_more",
+      "link": "https://futuretechdigitalmarketingagency.com/?utm_source=gbp&utm_campaign=p24"
+     }
+    }
+   }
+  }
+ ]
+}
